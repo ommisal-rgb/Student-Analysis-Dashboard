@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Performance Dashboard Poster - Mokkup Style</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-page: #F1F5F9;
+      --poster-title: #4338CA;
+      --card-bg: #FFFFFF;
+      --border-gray: #E2E8F0;
+      --text-dark: #1E293B;
+      --text-muted: #64748B;
+      --teal-primary: #0D9488;
+      --teal-light: #2DD4BF;
+      --blue-primary: #2563EB;
+      --blue-light: #38BDF8;
+      --purple-primary: #6366F1;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #CBD5E1;
+      color: var(--text-dark);
+      display: flex;
+      justify-content: center;
+      padding: 30px 10px;
+    }
+
+    /* A4 Poster Page Dimensions */
+    .a4-page {
+      width: 210mm;
+      min-height: 297mm;
+      background: var(--bg-page);
+      padding: 16mm 14mm;
+      box-shadow: 0 20px 40px rgba(0,0,0,0.18);
+      border-radius: 6px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      position: relative;
+    }
+
+    @media print {
+      @page {
+        size: A4 portrait;
+        margin: 0;
+      }
+      body {
+        background: none;
+        padding: 0;
+      }
+      .a4-page {
+        box-shadow: none;
+        border-radius: 0;
+        width: 210mm;
+        height: 297mm;
+        padding: 12mm 10mm;
+      }
+    }
+
+    /* Top Page Header */
+    .page-main-header {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .page-main-header h1 {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-size: 26px;
+      font-weight: 800;
+      color: var(--poster-title);
+      letter-spacing: -0.3px;
+    }
+
+    /* Outer Dashboard Canvas Frame (Mokkup.ai Style) */
+    .dashboard-frame {
+      width: 100%;
+      background: #FFFFFF;
+      border: 1px solid #CBD5E1;
+      border-radius: 8px;
+      box-shadow: 0 8px 24px rgba(15, 23, 42, 0.08);
+      padding: 18px 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+
+    /* Top Branding & Title Bar */
+    .db-header-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-bottom: 12px;
+      border-bottom: 1px solid #F1F5F9;
+    }
+
+    .brand-logo {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 16px;
+      font-weight: 800;
+      color: #0F172A;
+    }
+
+    .brand-icon {
+      width: 22px;
+      height: 22px;
+      background: linear-gradient(135deg, #4338CA, #06B6D4);
+      clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%);
+    }
+
+    .db-header-title {
+      font-size: 14px;
+      font-weight: 800;
+      color: #1E293B;
+      letter-spacing: 0.8px;
+      text-transform: uppercase;
+    }
+
+    /* Filter Controls / Metadata Bar */
+    .db-filters-row {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 12px;
+      background: #FAFAFA;
+      padding: 10px 14px;
+      border-radius: 6px;
+      border: 1px solid #F1F5F9;
+    }
+
+    .filter-item {
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+    }
+
+    .filter-label {
+      font-size: 9.5px;
+      font-weight: 600;
+      color: var(--text-muted);
+    }
+
+    .filter-value {
+      font-size: 11px;
+      font-weight: 700;
+      color: #0F172A;
+    }
+
+    /* Chart Container Common */
+    .chart-box {
+      background: #FFFFFF;
+      border: 1px solid var(--border-gray);
+      border-radius: 6px;
+      padding: 14px;
+    }
+
+    .chart-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: #F8FAFC;
+      margin: -14px -14px 12px -14px;
+      padding: 8px 14px;
+      border-bottom: 1px solid var(--border-gray);
+      border-radius: 6px 6px 0 0;
+    }
+
+    .chart-title {
+      font-size: 11.5px;
+      font-weight: 700;
+      color: #334155;
+    }
+
+    .chart-subtitle {
+      font-size: 10px;
+      color: #64748B;
+      font-weight: 500;
+    }
+
+    /* Cohort Matrix / Heatmap Table */
+    .cohort-table {
+      width: 100%;
+      border-collapse: separate;
+      border-spacing: 4px;
+      margin-top: 4px;
+    }
+
+    .cohort-table th {
+      font-size: 9.5px;
+      font-weight: 700;
+      color: #475569;
+      text-align: center;
+      padding: 4px 6px;
+    }
+
+    .cohort-table th.left-align {
+      text-align: left;
+    }
+
+    .cohort-table td {
+      font-size: 9.5px;
+      font-weight: 700;
+      text-align: center;
+      padding: 8px 4px;
+      border-radius: 3px;
+      color: #FFFFFF;
+    }
+
+    .cohort-table td.row-label {
+      background: transparent;
+      color: #334155;
+      font-weight: 700;
+      text-align: left;
+      padding-left: 4px;
+    }
+
+    /* Heatmap Color Grades */
+    .c-teal-1 { background: #0F766E; }
+    .c-teal-2 { background: #0D9488; }
+    .c-teal-3 { background: #14B8A6; }
+    .c-teal-4 { background: #2DD4BF; color: #0F172A; }
+    .c-teal-5 { background: #5EEAD4; color: #0F172A; }
+    .c-teal-6 { background: #99F6E4; color: #0F172A; }
+
+    /* Bottom Charts Split Grid */
+    .bottom-split-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 14px;
+    }
+
+    /* Area Chart SVG Styling */
+    .area-chart-svg {
+      width: 100%;
+      height: 155px;
+    }
+
+    /* Legends Row */
+    .legend-row {
+      display: flex;
+      justify-content: center;
+      gap: 16px;
+      margin-top: 10px;
+      padding-top: 8px;
+      border-top: 1px dashed #E2E8F0;
+    }
+
+    .legend-item {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      font-size: 9px;
+      font-weight: 600;
+      color: #475569;
+    }
+
+    .legend-color {
+      width: 10px;
+      height: 10px;
+      border-radius: 2px;
+    }
+
+    /* Stacked Bar SVG Chart Styling */
+    .stacked-bar-svg {
+      width: 100%;
+      height: 155px;
+    }
+
+    /* Student Info Pill Footer inside poster */
+    .poster-footer-note {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 9.5px;
+      color: #64748B;
+      padding: 6px 4px 0 4px;
+      border-top: 1px solid #E2E8F0;
+      margin-top: 4px;
+    }
+
+    .author-badge {
+      font-weight: 700;
+      color: #4338CA;
+      background: #EEF2FF;
+      padding: 3px 8px;
+      border-radius: 4px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="a4-page">
+    
+    <!-- Top Outer Title -->
+    <header class="page-main-header">
+      <h1>Student Performance Cohort Analysis</h1>
+    </header>
+
+    <!-- Main Dashboard Container (Mokkup.ai Style) -->
+    <main class="dashboard-frame">
+      
+      <!-- Brand & Header Title Bar -->
+      <div class="db-header-bar">
+        <div class="brand-logo">
+          <div class="brand-icon"></div>
+          <span>Tableau Public BI</span>
+        </div>
+        <div class="db-header-title">
+          STUDENT PERFORMANCE & RETENTION COHORT ANALYSIS
+        </div>
+      </div>
+
+      <!-- Slicers / Metadata Row -->
+      <section class="db-filters-row">
+        <div class="filter-item">
+          <span class="filter-label">Student Name</span>
+          <span class="filter-value">Advita Bhonde</span>
+        </div>
+        <div class="filter-item">
+          <span class="filter-label">Roll / Reg. No</span>
+          <span class="filter-value">23003045</span>
+        </div>
+        <div class="filter-item">
+          <span class="filter-label">Branch & Semester</span>
+          <span class="filter-value">ETC / Sem 6</span>
+        </div>
+        <div class="filter-item">
+          <span class="filter-label">Academic Cohort</span>
+          <span class="filter-value">2023 - 2026</span>
+        </div>
+        <div class="filter-item">
+          <span class="filter-label">Department Scope</span>
+          <span class="filter-value">All Engineering</span>
+        </div>
+      </section>
+
+      <!-- Top Section: Cohort Retention / CGPA Matrix Heatmap Chart -->
+      <section class="chart-box">
+        <div class="chart-header">
+          <span class="chart-title">Cohort Retention & Academic Progression Heatmap</span>
+          <span class="chart-subtitle">Average CGPA by Branch Cohort over Semesters</span>
+        </div>
+
+        <table class="cohort-table">
+          <thead>
+            <tr>
+              <th class="left-align" style="width: 14%;">Branch Cohort</th>
+              <th style="width: 14%;">Sem 1</th>
+              <th style="width: 14%;">Sem 2</th>
+              <th style="width: 14%;">Sem 3</th>
+              <th style="width: 14%;">Sem 4</th>
+              <th style="width: 14%;">Sem 5</th>
+              <th style="width: 14%;">Sem 6</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="row-label">CS Cohort</td>
+              <td class="c-teal-2">8.41 CGPA</td>
+              <td class="c-teal-3">8.58 CGPA</td>
+              <td class="c-teal-2">8.35 CGPA</td>
+              <td class="c-teal-1">8.50 CGPA</td>
+              <td class="c-teal-2">8.87 CGPA</td>
+              <td class="c-teal-3">8.78 CGPA</td>
+            </tr>
+            <tr>
+              <td class="row-label">IT Cohort</td>
+              <td class="c-teal-3">8.65 CGPA</td>
+              <td class="c-teal-2">8.48 CGPA</td>
+              <td class="c-teal-3">8.55 CGPA</td>
+              <td class="c-teal-1">8.95 CGPA</td>
+              <td class="c-teal-2">8.98 CGPA</td>
+              <td>--</td>
+            </tr>
+            <tr>
+              <td class="row-label">ECE Cohort</td>
+              <td class="c-teal-4">8.09 CGPA</td>
+              <td class="c-teal-3">8.18 CGPA</td>
+              <td class="c-teal-3">8.06 CGPA</td>
+              <td class="c-teal-2">8.45 CGPA</td>
+              <td>--</td>
+              <td>--</td>
+            </tr>
+            <tr>
+              <td class="row-label">EEE Cohort</td>
+              <td class="c-teal-4">7.70 CGPA</td>
+              <td class="c-teal-4">7.82 CGPA</td>
+              <td class="c-teal-3">8.11 CGPA</td>
+              <td>--</td>
+              <td>--</td>
+              <td>--</td>
+            </tr>
+            <tr>
+              <td class="row-label">Mech Cohort</td>
+              <td class="c-teal-5">7.36 CGPA</td>
+              <td class="c-teal-4">7.55 CGPA</td>
+              <td>--</td>
+              <td>--</td>
+              <td>--</td>
+              <td>--</td>
+            </tr>
+            <tr>
+              <td class="row-label">Civil Cohort</td>
+              <td class="c-teal-6">6.95 CGPA</td>
+              <td>--</td>
+              <td>--</td>
+              <td>--</td>
+              <td>--</td>
+              <td>--</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <!-- Bottom Split Section: Area Chart & Stacked Bar Chart -->
+      <section class="bottom-split-grid">
+        
+        <!-- Left: Sales Analysis w.r.t. Discount -> Performance vs Attendance Area Chart -->
+        <div class="chart-box">
+          <div class="chart-header">
+            <span class="chart-title">Academic Progress w.r.t. Attendance Tier</span>
+            <span class="chart-subtitle">CGPA Trajectory (Sem 1 - Sem 6)</span>
+          </div>
+
+          <svg class="area-chart-svg" viewBox="0 0 320 150">
+            <defs>
+              <linearGradient id="grad-high" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.85"/>
+                <stop offset="100%" stop-color="#38BDF8" stop-opacity="0.3"/>
+              </linearGradient>
+              <linearGradient id="grad-mid" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0%" stop-color="#2563EB" stop-opacity="0.85"/>
+                <stop offset="100%" stop-color="#2563EB" stop-opacity="0.3"/>
+              </linearGradient>
+              <linearGradient id="grad-low" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0%" stop-color="#1D4ED8" stop-opacity="0.95"/>
+                <stop offset="100%" stop-color="#1D4ED8" stop-opacity="0.4"/>
+              </linearGradient>
+            </defs>
+
+            <!-- Gridlines -->
+            <line x1="30" y1="20" x2="310" y2="20" stroke="#F1F5F9" stroke-width="1"/>
+            <line x1="30" y1="55" x2="310" y2="55" stroke="#F1F5F9" stroke-width="1"/>
+            <line x1="30" y1="90" x2="310" y2="90" stroke="#F1F5F9" stroke-width="1"/>
+            <line x1="30" y1="125" x2="310" y2="125" stroke="#CBD5E1" stroke-width="1"/>
+
+            <!-- Y Axis Labels -->
+            <text x="5" y="23" font-size="8" fill="#64748B" font-weight="600">10.0</text>
+            <text x="10" y="58" font-size="8" fill="#64748B" font-weight="600">7.5</text>
+            <text x="10" y="93" font-size="8" fill="#64748B" font-weight="600">5.0</text>
+            <text x="15" y="128" font-size="8" fill="#64748B" font-weight="600">0</text>
+
+            <!-- Layer 1: High Attendance (>85%) Area -->
+            <polygon points="30,125 30,55 75,50 120,48 165,45 210,42 255,46 300,40 300,125" fill="url(#grad-high)"/>
+
+            <!-- Layer 2: Mid Attendance (65-85%) Area -->
+            <polygon points="30,125 30,75 75,70 120,72 165,68 210,65 255,67 300,62 300,125" fill="url(#grad-mid)"/>
+
+            <!-- Layer 3: Low Attendance (<65%) Area -->
+            <polygon points="30,125 30,98 75,95 120,96 165,92 210,90 255,93 300,88 300,125" fill="url(#grad-low)"/>
+
+            <!-- Area stroke lines -->
+            <path d="M 30,55 L 75,50 L 120,48 L 165,45 L 210,42 L 255,46 L 300,40" fill="none" stroke="#38BDF8" stroke-width="1.5"/>
+            <path d="M 30,75 L 75,70 L 120,72 L 165,68 L 210,65 L 255,67 L 300,62" fill="none" stroke="#60A5FA" stroke-width="1.5"/>
+            <path d="M 30,98 L 75,95 L 120,96 L 165,92 L 210,90 L 255,93 L 300,88" fill="none" stroke="#1D4ED8" stroke-width="1.5"/>
+
+            <!-- X Axis Labels -->
+            <text x="25" y="140" font-size="8" fill="#64748B">Sem 1</text>
+            <text x="70" y="140" font-size="8" fill="#64748B">Sem 2</text>
+            <text x="115" y="140" font-size="8" fill="#64748B">Sem 3</text>
+            <text x="160" y="140" font-size="8" fill="#64748B">Sem 4</text>
+            <text x="205" y="140" font-size="8" fill="#64748B">Sem 5</text>
+            <text x="250" y="140" font-size="8" fill="#64748B">Sem 6</text>
+          </svg>
+
+          <!-- Legends -->
+          <div class="legend-row">
+            <div class="legend-item">
+              <div class="legend-color" style="background: #38BDF8;"></div>
+              <span>>85% Attendance</span>
+            </div>
+            <div class="legend-item">
+              <div class="legend-color" style="background: #2563EB;"></div>
+              <span>65-85% Attendance</span>
+            </div>
+            <div class="legend-item">
+              <div class="legend-color" style="background: #1D4ED8;"></div>
+              <span><65% Attendance</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right: Customer Contribution Over Time -> Academic Distinction Distribution Stacked Bar -->
+        <div class="chart-box">
+          <div class="chart-header">
+            <span class="chart-title">Academic Cohort Distribution Over Time</span>
+            <span class="chart-subtitle">Grade Classification Share by Quarter</span>
+          </div>
+
+          <svg class="stacked-bar-svg" viewBox="0 0 320 150">
+            <!-- Gridlines -->
+            <line x1="30" y1="20" x2="310" y2="20" stroke="#F1F5F9" stroke-width="1"/>
+            <line x1="30" y1="55" x2="310" y2="55" stroke="#F1F5F9" stroke-width="1"/>
+            <line x1="30" y1="90" x2="310" y2="90" stroke="#F1F5F9" stroke-width="1"/>
+            <line x1="30" y1="125" x2="310" y2="125" stroke="#CBD5E1" stroke-width="1"/>
+
+            <!-- Y Axis -->
+            <text x="5" y="23" font-size="8" fill="#64748B" font-weight="600">30M</text>
+            <text x="5" y="58" font-size="8" fill="#64748B" font-weight="600">20M</text>
+            <text x="5" y="93" font-size="8" fill="#64748B" font-weight="600">10M</text>
+            <text x="15" y="128" font-size="8" fill="#64748B" font-weight="600">0M</text>
+
+            <!-- Column Q1 -->
+            <g transform="translate(48, 20)">
+              <rect x="0" y="0" width="46" height="105" fill="#38BDF8" rx="2"/>
+              <text x="23" y="58" font-size="7.5" fill="#FFFFFF" font-weight="700" text-anchor="middle">100.00%</text>
+            </g>
+
+            <!-- Column Q2 -->
+            <g transform="translate(112, 20)">
+              <!-- Segment Top -->
+              <rect x="0" y="0" width="46" height="50" fill="#38BDF8" rx="2"/>
+              <text x="23" y="28" font-size="7.5" fill="#FFFFFF" font-weight="700" text-anchor="middle">47.63%</text>
+              <!-- Segment Bottom -->
+              <rect x="0" y="51" width="46" height="54" fill="#2563EB" rx="2"/>
+              <text x="23" y="80" font-size="7.5" fill="#FFFFFF" font-weight="700" text-anchor="middle">52.37%</text>
+            </g>
+
+            <!-- Column Q3 -->
+            <g transform="translate(176, 20)">
+              <!-- Segment 1 Top -->
+              <rect x="0" y="0" width="46" height="33" fill="#38BDF8" rx="2"/>
+              <text x="23" y="20" font-size="7" fill="#FFFFFF" font-weight="700" text-anchor="middle">31.25%</text>
+              <!-- Segment 2 Mid -->
+              <rect x="0" y="34" width="46" height="37" fill="#2563EB" rx="2"/>
+              <text x="23" y="56" font-size="7" fill="#FFFFFF" font-weight="700" text-anchor="middle">36.42%</text>
+              <!-- Segment 3 Bot -->
+              <rect x="0" y="72" width="46" height="33" fill="#1D4ED8" rx="2"/>
+              <text x="23" y="91" font-size="7" fill="#FFFFFF" font-weight="700" text-anchor="middle">32.23%</text>
+            </g>
+
+            <!-- Column Q4 -->
+            <g transform="translate(240, 20)">
+              <!-- Segment 1 Top -->
+              <rect x="0" y="0" width="46" height="27" fill="#38BDF8" rx="2"/>
+              <text x="23" y="17" font-size="6.5" fill="#FFFFFF" font-weight="700" text-anchor="middle">26.38%</text>
+              <!-- Segment 2 -->
+              <rect x="0" y="28" width="46" height="23" fill="#60A5FA" rx="2"/>
+              <text x="23" y="42" font-size="6.5" fill="#FFFFFF" font-weight="700" text-anchor="middle">21.61%</text>
+              <!-- Segment 3 -->
+              <rect x="0" y="52" width="46" height="29" fill="#2563EB" rx="2"/>
+              <text x="23" y="69" font-size="6.5" fill="#FFFFFF" font-weight="700" text-anchor="middle">28.46%</text>
+              <!-- Segment 4 Bot -->
+              <rect x="0" y="82" width="46" height="23" fill="#1E40AF" rx="2"/>
+              <text x="23" y="96" font-size="6.5" fill="#FFFFFF" font-weight="700" text-anchor="middle">23.55%</text>
+            </g>
+
+            <!-- X Axis Labels -->
+            <text x="71" y="140" font-size="8" fill="#64748B" font-weight="600" text-anchor="middle">Q1</text>
+            <text x="135" y="140" font-size="8" fill="#64748B" font-weight="600" text-anchor="middle">Q2</text>
+            <text x="199" y="140" font-size="8" fill="#64748B" font-weight="600" text-anchor="middle">Q3</text>
+            <text x="263" y="140" font-size="8" fill="#64748B" font-weight="600" text-anchor="middle">Q4</text>
+          </svg>
+
+          <!-- Legends -->
+          <div class="legend-row">
+            <div class="legend-item">
+              <div class="legend-color" style="background: #38BDF8;"></div>
+              <span>Acquired Q1</span>
+            </div>
+            <div class="legend-item">
+              <div class="legend-color" style="background: #2563EB;"></div>
+              <span>Acquired Q2</span>
+            </div>
+            <div class="legend-item">
+              <div class="legend-color" style="background: #1D4ED8;"></div>
+              <span>Acquired Q3</span>
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+      <!-- Footer Info Bar -->
+      <footer class="poster-footer-note">
+        <span>Designed with Tableau & BI Standards | Academic Submission</span>
+        <span class="author-badge">Student: Advita Bhonde (Roll No: 23003045)</span>
+      </footer>
+
+    </main>
+
+  </div>
+
+</body>
+</html>

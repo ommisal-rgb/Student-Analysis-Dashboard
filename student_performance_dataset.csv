@@ -1,0 +1,601 @@
+Student_ID,Student_Name,Gender,Branch,Semester,Attendance_Percentage,Study_Hours_Per_Week,Midterm_Score,Assignment_Score,Final_Exam_Score,CGPA,Extracurricular_Activities,Parent_Education_Level,Internet_Access,Passing_Status,Performance_Category
+STU2024001,Rahul Saxena,Female,Electrical Eng,Semester 6,82.8,10,56.4,66.1,64.7,6.26,Medium,Bachelor,Yes,Pass,Average Performer
+STU2024002,Yash Bhat,Female,Computer Science,Semester 6,79.3,29,69.4,83.0,77.0,7.65,High,Master,Yes,Pass,Average Performer
+STU2024003,Siddharth Joshi,Male,Computer Science,Semester 4,96.4,22,82.4,90.5,98.0,9.11,Low,Bachelor,Yes,Academic Distinction,High Performer
+STU2024004,Yash Rao,Female,Computer Science,Semester 7,59.9,12,40.7,60.3,49.1,4.99,Low,Bachelor,Yes,At-Risk,Needs Improvement
+STU2024005,Anushka Malhotra,Female,Electrical Eng,Semester 3,76.5,16,63.1,71.3,68.4,6.77,High,Bachelor,Yes,Pass,Average Performer
+STU2024006,Manish Chopra,Male,Electrical Eng,Semester 7,73.3,28,87.4,82.0,76.4,8.14,Low,Doctorate,Yes,Pass,Average Performer
+STU2024007,Siddharth Gupta,Female,Information Tech,Semester 4,84.2,18,75.1,80.5,81.9,7.94,Medium,Bachelor,Yes,Pass,Average Performer
+STU2024008,Kavya Patel,Female,Mechanical Eng,Semester 6,82.8,17,52.3,74.6,68.2,6.53,Low,High School,No,Pass,Average Performer
+STU2024009,Shruti Verma,Female,Mechanical Eng,Semester 8,98.2,14,72.7,77.5,86.9,7.98,Medium,Bachelor,Yes,Pass,Average Performer
+STU2024010,Divya Deshmukh,Male,Information Tech,Semester 2,99.5,12,66.6,80.5,83.6,7.76,Low,High School,Yes,Pass,Average Performer
+STU2024011,Kriti Kumar,Male,Mechanical Eng,Semester 8,74.3,28,68.1,70.0,71.8,7.01,High,Bachelor,Yes,Pass,Average Performer
+STU2024012,Ananya Sharma,Female,Computer Science,Semester 8,82.0,31,87.7,84.5,83.1,8.49,Medium,Bachelor,Yes,Pass,Average Performer
+STU2024013,Meera Deshmukh,Female,Computer Science,Semester 6,84.0,13,60.3,57.6,65.1,6.14,High,Master,Yes,Pass,Average Performer
+STU2024014,Akash Shah,Male,Electronics & Comm,Semester 7,74.0,29,75.5,70.1,72.8,7.28,Low,Bachelor,Yes,Pass,Average Performer
+STU2024015,Nikhil Nair,Female,Computer Science,Semester 2,88.3,16,70.5,66.0,77.3,7.19,Low,Master,No,Pass,Average Performer
+STU2024016,Simran Agarwal,Female,Information Tech,Semester 1,79.6,23,69.4,84.5,80.9,7.85,Low,Doctorate,Yes,Pass,Average Performer
+STU2024017,Karan Bhat,Male,Civil Eng,Semester 5,71.3,29,79.1,78.9,76.0,7.78,Low,High School,Yes,Pass,Average Performer
+STU2024018,Kriti Malhotra,Female,Computer Science,Semester 6,79.2,18,63.5,66.4,60.3,6.31,High,Bachelor,Yes,Pass,Average Performer
+STU2024019,Meera Saxena,Male,Computer Science,Semester 4,72.0,17,59.9,72.5,73.4,6.91,Medium,Bachelor,Yes,Pass,Average Performer
+STU2024020,Akash Patel,Male,Information Tech,Semester 1,92.4,25,89.9,92.1,94.1,9.22,High,Bachelor,Yes,Academic Distinction,High Performer
+STU2024021,Aditya Malhotra,Male,Civil Eng,Semester 5,99.5,12,78.0,82.4,82.2,8.1,High,Bachelor,Yes,Pass,Average Performer
+STU2024022,Rahul Mehta,Female,Electronics & Comm,Semester 4,84.4,28,68.7,83.5,79.7,7.75,High,Doctorate,Yes,Pass,Average Performer
+STU2024023,Rahul Kulkarni,Male,Information Tech,Semester 8,83.1,20,78.2,78.9,79.8,7.91,Medium,Master,Yes,Pass,Average Performer
+STU2024024,Priya Mishra,Male,Computer Science,Semester 3,83.5,15,77.6,79.2,85.9,8.14,High,Bachelor,Yes,Pass,Average Performer
+STU2024025,Pooja Mehta,Male,Computer Science,Semester 4,93.8,15,83.0,76.1,73.1,7.7,High,Bachelor,Yes,Pass,Average Performer
+STU2024026,Anushka Verma,Female,Civil Eng,Semester 2,93.6,10,68.6,75.0,73.9,7.26,High,Master,Yes,Pass,Average Performer
+STU2024027,Neha Bhat,Female,Civil Eng,Semester 2,80.8,16,58.1,71.7,75.4,6.91,High,Doctorate,No,Pass,Average Performer
+STU2024028,Simran Rao,Male,Computer Science,Semester 3,84.5,18,75.4,67.0,77.1,7.36,Low,Master,Yes,Pass,Average Performer
+STU2024029,Meera Joshi,Male,Civil Eng,Semester 1,88.5,12,57.8,79.3,80.3,7.32,Medium,High School,No,Pass,Average Performer
+STU2024030,Karan Patel,Female,Information Tech,Semester 5,70.6,19,63.3,82.8,65.5,7.0,Low,Bachelor,Yes,Pass,Average Performer
+STU2024031,Tanvi Shah,Male,Mechanical Eng,Semester 4,94.1,23,83.3,80.2,89.7,8.49,Medium,High School,Yes,Pass,Average Performer
+STU2024032,Priya Kulkarni,Male,Information Tech,Semester 2,99.3,18,69.9,89.8,87.8,8.3,High,Bachelor,Yes,Pass,Average Performer
+STU2024033,Kavya Gupta,Male,Information Tech,Semester 1,93.7,24,72.1,81.0,71.1,7.44,Medium,High School,Yes,Pass,Average Performer
+STU2024034,Ananya Kumar,Male,Information Tech,Semester 3,69.5,14,63.3,66.7,64.3,6.47,Medium,Bachelor,Yes,Pass,Average Performer
+STU2024035,Shruti Nair,Male,Electrical Eng,Semester 7,62.3,27,87.3,81.8,79.8,8.26,High,Master,Yes,At-Risk,Needs Improvement
+STU2024036,Priya Kulkarni,Male,Computer Science,Semester 6,89.1,20,84.6,77.4,74.9,7.86,High,High School,Yes,Pass,Average Performer
+STU2024037,Anushka Deshmukh,Male,Computer Science,Semester 7,74.4,30,86.4,81.1,80.8,8.26,High,Bachelor,Yes,Pass,Average Performer
+STU2024038,Ananya Nair,Female,Electronics & Comm,Semester 7,84.9,36,99.0,80.4,94.0,9.14,High,Bachelor,Yes,Academic Distinction,High Performer
+STU2024039,Kriti Gupta,Male,Electrical Eng,Semester 2,97.4,16,78.3,77.5,79.9,7.87,Medium,Bachelor,Yes,Pass,Average Performer
+STU2024040,Tanvi Agarwal,Female,Computer Science,Semester 8,75.4,16,68.0,59.1,67.6,6.52,Medium,High School,No,Pass,Average Performer
+STU2024041,Karan Joshi,Female,Electrical Eng,Semester 8,78.2,18,75.1,76.1,77.3,7.63,High,Bachelor,Yes,Pass,Average Performer
+STU2024042,Tanvi Joshi,Male,Civil Eng,Semester 3,84.8,24,66.8,86.6,77.3,7.69,High,Master,Yes,Pass,Average Performer
+STU2024043,Varun Agarwal,Female,Computer Science,Semester 4,69.0,29,79.0,76.4,72.6,7.57,Low,High School,Yes,Pass,Average Performer
+STU2024044,Arjun Kulkarni,Male,Electrical Eng,Semester 8,74.4,15,62.1,70.9,70.9,6.83,High,High School,Yes,Pass,Average Performer
+STU2024045,Karan Reddy,Female,Electronics & Comm,Semester 7,82.2,22,74.9,76.7,69.1,7.31,Medium,Bachelor,Yes,Pass,Average Performer
+STU2024046,Vikram Bhat,Male,Mechanical Eng,Semester 8,79.0,19,65.7,79.1,73.1,7.27,Low,Doctorate,Yes,Pass,Average Performer
+STU2024047,Arjun Sharma,Male,Computer Science,Semester 7,88.1,24,83.2,84.0,91.4,8.67,High,Master,Yes,Academic Distinction,High Performer
+STU2024048,Akash Rao,Male,Electrical Eng,Semester 5,99.5,30,84.3,81.8,84.2,8.35,High,Master,Yes,Pass,Average Performer
+STU2024049,Vikram Sharma,Female,Mechanical Eng,Semester 2,83.0,18,65.5,81.5,71.0,7.25,Medium,Bachelor,Yes,Pass,Average Performer
+STU2024050,Meera Joshi,Male,Civil Eng,Semester 2,73.6,8,48.8,60.9,61.6,5.76,Medium,Bachelor,Yes,Pass,Average Performer
+STU2024051,Divya Chopra,Female,Electrical Eng,Semester 4,96.2,25,90.4,80.5,88.9,8.68,Medium,High School,No,Academic Distinction,High Performer
+STU2024052,Amit Shah,Male,Information Tech,Semester 8,66.1,14,58.1,61.6,64.7,6.18,Low,Bachelor,Yes,Pass,Average Performer
+STU2024053,Kavya Patel,Female,Information Tech,Semester 8,68.1,18,60.2,57.0,60.9,5.95,High,Doctorate,Yes,Pass,Average Performer
+STU2024054,Rohan Sharma,Male,Mechanical Eng,Semester 6,76.0,25,72.4,70.5,60.5,6.71,Medium,Bachelor,Yes,Pass,Average Performer
+STU2024055,Nikhil Singh,Female,Information Tech,Semester 1,79.2,22,73.1,78.1,82.0,7.82,Medium,Master,Yes,Pass,Average Performer
+STU2024056,Isha Rao,Male,Computer Science,Semester 5,75.8,19,81.1,74.5,88.1,8.19,High,Master,No,Pass,Average Performer
+STU2024057,Anushka Mehta,Male,Civil Eng,Semester 2,81.7,15,55.8,74.7,74.0,6.88,Medium,High School,Yes,Pass,Average Performer
+STU2024058,Simran Rao,Male,Electrical Eng,Semester 5,84.7,6,61.5,67.2,50.4,5.88,High,Doctorate,Yes,Pass,Average Performer
+STU2024059,Vikram Joshi,Male,Electrical Eng,Semester 2,92.7,24,84.7,81.4,87.4,8.48,Medium,High School,Yes,Pass,Average Performer
+STU2024060,Meera Verma,Female,Computer Science,Semester 5,82.9,18,62.7,75.5,68.9,6.9,High,Bachelor,Yes,Pass,Average Performer
+STU2024061,Aarav Agarwal,Male,Electrical Eng,Semester 3,76.4,30,93.3,79.6,79.7,8.38,Medium,High School,Yes,Pass,Average Performer
+STU2024062,Manish Singh,Female,Electronics & Comm,Semester 7,92.1,22,82.6,73.9,82.1,7.98,Medium,High School,Yes,Pass,Average Performer
+STU2024063,Rohan Deshmukh,Male,Electrical Eng,Semester 2,73.8,16,59.7,65.1,63.7,6.29,Low,Bachelor,Yes,Pass,Average Performer
+STU2024064,Kavya Patel,Female,Computer Science,Semester 5,65.7,27,58.8,79.8,70.1,6.96,High,Bachelor,Yes,Pass,Average Performer
+STU2024065,Aarav Patel,Male,Electrical Eng,Semester 8,94.1,28,88.1,99.0,93.4,9.35,Medium,Bachelor,No,Academic Distinction,High Performer
+STU2024066,Aditya Bhat,Male,Civil Eng,Semester 1,93.4,18,73.6,85.0,75.9,7.79,Medium,Bachelor,Yes,Pass,Average Performer
+STU2024067,Tanvi Patel,Female,Computer Science,Semester 3,74.1,28,70.0,88.7,74.5,7.74,Medium,High School,Yes,Pass,Average Performer
+STU2024068,Aarav Singh,Male,Civil Eng,Semester 3,78.0,16,57.1,72.3,62.9,6.4,Medium,High School,Yes,Pass,Average Performer
+STU2024069,Anushka Mishra,Male,Electronics & Comm,Semester 1,72.8,21,76.3,83.7,69.6,7.58,Medium,Bachelor,Yes,Pass,Average Performer
+STU2024070,Rahul Mehta,Female,Mechanical Eng,Semester 5,85.3,23,61.1,93.4,70.4,7.45,Medium,Bachelor,No,Pass,Average Performer
+STU2024071,Karan Bhat,Female,Electrical Eng,Semester 8,99.3,25,87.2,79.2,85.8,8.42,Low,Master,Yes,Pass,Average Performer
+STU2024072,Anushka Nair,Male,Information Tech,Semester 4,89.0,24,77.9,85.0,89.7,8.48,Medium,Master,Yes,Pass,Average Performer
+STU2024073,Simran Reddy,Male,Electrical Eng,Semester 1,92.4,17,76.3,80.3,78.2,7.83,Medium,Master,Yes,Pass,Average Performer
+STU2024074,Amit Rao,Female,Mechanical Eng,Semester 5,90.2,27,81.1,84.2,80.2,8.17,Low,Master,Yes,Pass,Average Performer
+STU2024075,Dev Saxena,Male,Electronics & Comm,Semester 1,82.0,19,72.9,79.2,71.0,7.4,Low,Bachelor,Yes,Pass,Average Performer
+STU2024076,Yash Gupta,Male,Electronics & Comm,Semester 1,92.8,16,65.4,79.4,75.9,7.38,Low,Master,Yes,Pass,Average Performer
+STU2024077,Kriti Singh,Male,Electrical Eng,Semester 2,89.5,16,69.6,73.1,80.7,7.51,Medium,Bachelor,Yes,Pass,Average Performer
+STU2024078,Manish Rao,Female,Mechanical Eng,Semester 5,96.4,33,97.1,94.4,99.5,9.72,High,Bachelor,Yes,Academic Distinction,High Performer
+STU2024079,Arjun Bhat,Female,Electrical Eng,Semester 4,77.4,14,64.0,77.1,72.7,7.14,Medium,Master,Yes,Pass,Average Performer
+STU2024080,Siddharth Gupta,Male,Electrical Eng,Semester 7,64.6,29,78.7,76.6,75.8,7.69,Medium,Bachelor,Yes,At-Risk,Needs Improvement
+STU2024081,Arjun Rao,Male,Electronics & Comm,Semester 2,92.5,12,59.0,79.6,70.2,6.97,Medium,Master,No,Pass,Average Performer
+STU2024082,Nikhil Malhotra,Male,Mechanical Eng,Semester 1,85.5,23,72.1,79.5,75.5,7.57,Medium,Master,Yes,Pass,Average Performer
+STU2024083,Shruti Verma,Female,Computer Science,Semester 7,79.0,22,68.4,79.8,77.7,7.55,Low,Master,Yes,Pass,Average Performer
+STU2024084,Isha Reddy,Male,Information Tech,Semester 6,79.6,31,81.8,77.3,78.2,7.9,Medium,Doctorate,Yes,Pass,Average Performer
+STU2024085,Kriti Kumar,Male,Computer Science,Semester 7,99.5,15,83.7,78.8,84.3,8.25,Low,Bachelor,Yes,Pass,Average Performer
+STU2024086,Simran Deshmukh,Female,Electronics & Comm,Semester 1,75.6,13,58.0,67.6,64.8,6.36,Medium,Bachelor,Yes,Pass,Average Performer
+STU2024087,Meera Saxena,Male,Electronics & Comm,Semester 1,73.5,19,58.1,64.3,60.4,6.09,Medium,Bachelor,No,Pass,Average Performer
+STU2024088,Kriti Chopra,Female,Electronics & Comm,Semester 8,82.9,31,89.7,81.3,85.0,8.53,Medium,Bachelor,Yes,Academic Distinction,High Performer
+STU2024089,Anushka Rao,Male,Electrical Eng,Semester 5,93.8,13,78.9,79.2,71.9,7.62,Medium,Bachelor,Yes,Pass,Average Performer
+STU2024090,Kriti Sharma,Male,Electronics & Comm,Semester 5,99.5,6,51.9,75.3,72.4,6.71,High,Master,Yes,Pass,Average Performer
+STU2024091,Aarav Saxena,Male,Electronics & Comm,Semester 2,88.6,20,90.2,85.1,99.5,9.24,High,Master,Yes,Academic Distinction,High Performer
+STU2024092,Arjun Mehta,Female,Computer Science,Semester 4,69.3,26,77.2,71.8,71.0,7.31,Low,Bachelor,Yes,Pass,Average Performer
+STU2024093,Rohan Rao,Female,Electronics & Comm,Semester 2,99.5,12,77.5,79.7,84.5,8.1,High,High School,Yes,Pass,Average Performer
+STU2024094,Sneha Joshi,Female,Computer Science,Semester 3,81.8,25,89.5,76.9,87.8,8.5,Medium,Bachelor,Yes,Academic Distinction,High Performer
+STU2024095,Nikhil Mehta,Male,Computer Science,Semester 1,73.6,12,66.6,70.6,75.8,7.15,Medium,High School,Yes,Pass,Average Performer
+STU2024096,Kriti Singh,Female,Information Tech,Semester 7,71.2,18,64.2,77.1,68.8,6.99,Medium,Master,Yes,Pass,Average Performer
+STU2024097,Aarav Malhotra,Male,Electrical Eng,Semester 6,90.4,25,90.9,88.1,80.8,8.6,Medium,Bachelor,Yes,Academic Distinction,High Performer
+STU2024098,Isha Deshmukh,Male,Information Tech,Semester 1,84.4,11,64.0,77.4,74.1,7.21,High,High School,Yes,Pass,Average Performer
+STU2024099,Divya Bhat,Female,Information Tech,Semester 1,85.5,21,83.1,79.7,83.0,8.2,Medium,High School,Yes,Pass,Average Performer
+STU2024100,Nikhil Mehta,Male,Electronics & Comm,Semester 2,94.9,28,96.2,94.7,93.7,9.48,Medium,Bachelor,Yes,Academic Distinction,High Performer
+STU2024101,Neha Shah,Male,Mechanical Eng,Semester 6,74.0,23,63.5,75.9,69.3,6.95,Medium,Bachelor,Yes,Pass,Average Performer
+STU2024102,Kriti Shah,Male,Information Tech,Semester 6,95.7,14,76.4,72.9,79.8,7.67,High,Bachelor,Yes,Pass,Average Performer
+STU2024103,Anushka Saxena,Male,Information Tech,Semester 6,76.8,30,80.3,83.9,82.7,8.23,Medium,High School,Yes,Pass,Average Performer
+STU2024104,Meera Rao,Male,Computer Science,Semester 2,99.5,24,84.7,83.0,88.7,8.58,High,Bachelor,Yes,Academic Distinction,High Performer
+STU2024105,Ananya Patel,Female,Electronics & Comm,Semester 1,88.0,6,58.4,82.8,71.8,7.11,High,Bachelor,Yes,Pass,Average Performer
+STU2024106,Dev Singh,Male,Electronics & Comm,Semester 2,72.8,26,76.0,75.2,77.0,7.62,High,Master,Yes,Pass,Average Performer
+STU2024107,Dev Shah,Female,Electronics & Comm,Semester 5,61.7,16,71.1,67.5,66.5,6.82,High,Bachelor,Yes,At-Risk,Needs Improvement
+STU2024108,Nikhil Shah,Female,Information Tech,Semester 5,90.1,21,65.3,81.8,79.2,7.58,Low,Bachelor,No,Pass,Average Performer
+STU2024109,Ananya Verma,Male,Information Tech,Semester 2,78.3,27,64.9,73.3,67.4,6.84,High,Bachelor,Yes,Pass,Average Performer
+STU2024110,Simran Singh,Male,Information Tech,Semester 6,80.4,16,50.9,61.6,60.9,5.81,Low,Doctorate,Yes,Pass,Average Performer
+STU2024111,Aarav Sharma,Male,Electrical Eng,Semester 8,89.7,8,69.0,75.7,67.4,7.04,Low,Bachelor,Yes,Pass,Average Performer
+STU2024112,Amit Verma,Female,Mechanical Eng,Semester 1,92.1,30,81.7,99.3,88.1,8.95,Medium,Master,Yes,Academic Distinction,High Performer
+STU2024113,Varun Deshmukh,Male,Electrical Eng,Semester 2,94.2,28,87.3,85.1,90.7,8.8,High,High School,Yes,Academic Distinction,High Performer
+STU2024114,Anushka Kumar,Female,Civil Eng,Semester 2,70.3,19,65.0,60.4,59.3,6.13,Medium,Bachelor,Yes,Pass,Average Performer
+STU2024115,Manish Gupta,Male,Computer Science,Semester 2,96.3,25,76.4,86.2,82.2,8.17,Medium,High School,Yes,Pass,Average Performer
+STU2024116,Manish Chopra,Female,Computer Science,Semester 8,76.2,17,72.7,66.1,59.1,6.53,Medium,Bachelor,Yes,Pass,Average Performer
+STU2024117,Divya Shah,Male,Computer Science,Semester 8,59.4,20,61.7,61.8,54.4,5.88,High,Doctorate,Yes,At-Risk,Needs Improvement
+STU2024118,Sneha Singh,Male,Information Tech,Semester 3,70.2,18,62.8,73.2,62.4,6.58,Medium,Bachelor,Yes,Pass,Average Performer
+STU2024119,Neha Verma,Female,Mechanical Eng,Semester 5,84.2,17,70.9,75.4,75.6,7.41,Low,High School,Yes,Pass,Average Performer
+STU2024120,Sneha Chopra,Female,Computer Science,Semester 7,72.2,22,76.0,68.7,74.4,7.32,Medium,High School,Yes,Pass,Average Performer
+STU2024121,Riya Agarwal,Male,Civil Eng,Semester 6,81.1,11,53.0,72.9,65.3,6.39,High,Bachelor,Yes,Pass,Average Performer
+STU2024122,Aarav Mehta,Female,Computer Science,Semester 4,85.4,18,77.7,81.1,78.5,7.9,Medium,High School,Yes,Pass,Average Performer
+STU2024123,Simran Kumar,Male,Civil Eng,Semester 8,80.2,22,85.1,75.7,78.9,7.98,High,High School,Yes,Pass,Average Performer
+STU2024124,Riya Patel,Female,Electronics & Comm,Semester 7,77.1,32,72.8,85.0,81.5,7.99,High,Master,Yes,Pass,Average Performer
+STU2024125,Neha Gupta,Female,Computer Science,Semester 8,69.5,11,58.2,66.7,64.5,6.33,Low,Bachelor,Yes,Pass,Average Performer
+STU2024126,Amit Patel,Male,Information Tech,Semester 6,82.2,23,73.0,82.1,76.4,7.71,High,Bachelor,Yes,Pass,Average Performer
+STU2024127,Amit Saxena,Male,Electronics & Comm,Semester 4,61.4,24,74.0,70.1,76.6,7.39,High,Doctorate,Yes,At-Risk,Needs Improvement
+STU2024128,Rahul Saxena,Male,Electronics & Comm,Semester 3,75.1,6,42.5,70.9,68.7,6.15,High,High School,No,Pass,Average Performer
+STU2024129,Vikram Sharma,Female,Electronics & Comm,Semester 2,72.7,22,83.5,77.4,73.0,7.75,Low,Doctorate,Yes,Pass,Average Performer
+STU2024130,Kavya Rao,Female,Mechanical Eng,Semester 3,79.6,26,65.2,77.9,75.1,7.3,Medium,Bachelor,Yes,Pass,Average Performer
+STU2024131,Pooja Joshi,Male,Information Tech,Semester 8,79.9,24,73.8,76.5,91.4,8.17,Medium,Master,Yes,Pass,Average Performer
+STU2024132,Aarav Chopra,Male,Electronics & Comm,Semester 3,91.6,19,77.9,77.7,82.0,7.95,Medium,Bachelor,Yes,Pass,Average Performer
+STU2024133,Simran Kulkarni,Female,Information Tech,Semester 7,97.8,22,75.0,90.3,85.5,8.38,High,Master,Yes,Pass,Average Performer
+STU2024134,Manish Nair,Female,Electrical Eng,Semester 1,70.8,21,61.8,68.5,65.7,6.54,Medium,Doctorate,Yes,Pass,Average Performer
+STU2024135,Rohan Rao,Female,Electronics & Comm,Semester 8,99.5,8,66.2,73.6,77.9,7.31,Medium,Bachelor,Yes,Pass,Average Performer
+STU2024136,Simran Agarwal,Male,Electronics & Comm,Semester 8,74.2,21,70.5,80.2,78.4,7.66,High,Doctorate,Yes,Pass,Average Performer
+STU2024137,Anushka Agarwal,Male,Computer Science,Semester 7,83.7,17,68.9,76.6,68.3,7.1,Medium,Bachelor,Yes,Pass,Average Performer
+STU2024138,Akash Saxena,Male,Computer Science,Semester 5,87.1,15,74.7,82.7,79.8,7.91,Low,Bachelor,Yes,Pass,Average Performer
+STU2024139,Simran Shah,Female,Electrical Eng,Semester 4,99.5,37,96.0,100.0,86.8,9.35,High,Bachelor,No,Academic Distinction,High Performer
+STU2024140,Ananya Sharma,Male,Computer Science,Semester 2,76.6,28,81.8,73.6,76.8,7.73,High,Bachelor,Yes,Pass,Average Performer
+STU2024141,Riya Deshmukh,Female,Information Tech,Semester 7,64.0,11,49.7,60.2,51.7,5.36,High,High School,Yes,At-Risk,Needs Improvement
+STU2024142,Aditya Singh,Male,Electrical Eng,Semester 4,96.9,22,73.4,92.0,86.3,8.41,High,Bachelor,Yes,Pass,Average Performer
+STU2024143,Nikhil Mehta,Female,Computer Science,Semester 6,73.7,30,78.2,73.5,67.4,7.25,Low,Bachelor,No,Pass,Average Performer
+STU2024144,Vikram Patel,Female,Information Tech,Semester 4,78.4,9,53.2,68.9,61.2,6.11,Medium,Master,Yes,Pass,Average Performer
+STU2024145,Amit Agarwal,Female,Electronics & Comm,Semester 6,70.8,20,63.7,71.2,72.6,6.95,Medium,Master,Yes,Pass,Average Performer
+STU2024146,Riya Patel,Male,Civil Eng,Semester 7,78.4,20,79.7,64.7,70.8,7.16,Medium,Bachelor,Yes,Pass,Average Performer
+STU2024147,Neha Sharma,Male,Information Tech,Semester 8,73.6,11,55.6,66.3,53.4,5.79,High,Bachelor,Yes,Pass,Average Performer
+STU2024148,Divya Saxena,Male,Mechanical Eng,Semester 8,88.8,22,71.6,77.0,78.2,7.59,Medium,Bachelor,Yes,Pass,Average Performer
+STU2024149,Siddharth Shah,Female,Information Tech,Semester 5,82.8,27,80.7,76.0,76.5,7.76,Medium,High School,Yes,Pass,Average Performer
+STU2024150,Kavya Gupta,Female,Computer Science,Semester 7,75.2,30,81.9,81.7,79.6,8.09,Medium,High School,Yes,Pass,Average Performer
+STU2024151,Sneha Joshi,Female,Information Tech,Semester 6,92.0,18,63.9,68.8,67.6,6.68,Low,Bachelor,Yes,Pass,Average Performer
+STU2024152,Neha Patel,Female,Civil Eng,Semester 4,84.5,37,90.8,87.8,98.4,9.29,Medium,Bachelor,Yes,Academic Distinction,High Performer
+STU2024153,Riya Patel,Female,Information Tech,Semester 4,63.5,6,44.9,71.9,50.3,5.52,Medium,Doctorate,Yes,At-Risk,Needs Improvement
+STU2024154,Akash Kulkarni,Male,Mechanical Eng,Semester 6,91.2,22,76.5,87.1,97.3,8.8,Low,Bachelor,Yes,Academic Distinction,High Performer
+STU2024155,Tanvi Kulkarni,Female,Mechanical Eng,Semester 3,83.8,10,66.3,64.6,67.3,6.62,High,Bachelor,Yes,Pass,Average Performer
+STU2024156,Ananya Patel,Male,Computer Science,Semester 5,95.9,20,78.5,92.4,87.8,8.64,High,Bachelor,Yes,Academic Distinction,High Performer
+STU2024157,Riya Mehta,Male,Computer Science,Semester 1,83.2,16,77.3,68.4,72.5,7.27,High,High School,No,Pass,Average Performer
+STU2024158,Priya Sharma,Male,Information Tech,Semester 8,74.1,23,72.1,72.1,69.4,7.1,Medium,Bachelor,Yes,Pass,Average Performer
+STU2024159,Priya Sharma,Male,Electronics & Comm,Semester 2,80.0,19,84.0,68.3,73.8,7.52,Medium,Bachelor,Yes,Pass,Average Performer
+STU2024160,Tanvi Agarwal,Male,Mechanical Eng,Semester 4,90.0,14,64.1,77.7,77.0,7.33,Medium,Bachelor,Yes,Pass,Average Performer
+STU2024161,Neha Joshi,Female,Civil Eng,Semester 2,74.3,14,55.4,76.6,59.5,6.34,Low,Bachelor,No,Pass,Average Performer
+STU2024162,Rahul Patel,Male,Electronics & Comm,Semester 1,77.6,33,90.0,79.2,85.6,8.5,Medium,Doctorate,Yes,Pass,Average Performer
+STU2024163,Dev Sharma,Female,Computer Science,Semester 7,79.8,23,85.4,65.9,66.5,7.2,Medium,Master,Yes,Pass,Average Performer
+STU2024164,Riya Deshmukh,Male,Electrical Eng,Semester 2,70.5,8,41.8,68.2,58.1,5.62,High,Bachelor,Yes,Pass,Average Performer
+STU2024165,Nikhil Malhotra,Male,Electronics & Comm,Semester 1,74.4,23,70.8,84.9,80.7,7.9,High,Bachelor,Yes,Pass,Average Performer
+STU2024166,Shruti Mishra,Male,Mechanical Eng,Semester 8,83.7,18,65.2,64.3,62.2,6.37,Medium,Bachelor,Yes,Pass,Average Performer
+STU2024167,Kriti Kumar,Male,Electronics & Comm,Semester 6,94.0,20,77.7,85.8,87.2,8.39,Medium,Bachelor,Yes,Pass,Average Performer
+STU2024168,Sneha Reddy,Female,Electrical Eng,Semester 3,85.2,25,79.2,84.0,82.3,8.19,Low,Bachelor,Yes,Pass,Average Performer
+STU2024169,Amit Joshi,Male,Computer Science,Semester 8,81.5,28,92.0,78.4,93.1,8.84,High,High School,No,Academic Distinction,High Performer
+STU2024170,Nikhil Verma,Female,Information Tech,Semester 4,73.7,13,59.2,58.9,57.7,5.85,High,Bachelor,Yes,Pass,Average Performer
+STU2024171,Varun Sharma,Male,Information Tech,Semester 1,93.0,19,86.0,87.7,99.5,9.19,Medium,Bachelor,Yes,Academic Distinction,High Performer
+STU2024172,Simran Bhat,Female,Information Tech,Semester 2,86.3,16,66.2,77.0,62.0,6.78,High,Bachelor,Yes,Pass,Average Performer
+STU2024173,Aarav Singh,Female,Computer Science,Semester 4,74.9,24,81.2,78.2,77.2,7.87,High,Doctorate,Yes,Pass,Average Performer
+STU2024174,Simran Agarwal,Female,Electrical Eng,Semester 3,91.0,18,74.8,76.2,70.0,7.33,Medium,Doctorate,Yes,Pass,Average Performer
+STU2024175,Amit Gupta,Male,Mechanical Eng,Semester 6,87.6,20,87.9,75.0,92.6,8.59,High,Master,Yes,Academic Distinction,High Performer
+STU2024176,Rohan Shah,Male,Computer Science,Semester 7,73.9,18,54.3,56.6,57.7,5.64,Medium,Bachelor,Yes,Pass,Average Performer
+STU2024177,Dev Deshmukh,Male,Computer Science,Semester 4,81.0,19,60.9,74.3,68.8,6.81,High,Master,Yes,Pass,Average Performer
+STU2024178,Simran Mishra,Female,Computer Science,Semester 7,77.1,31,97.7,92.0,93.8,9.44,High,High School,No,Pass,Average Performer
+STU2024179,Varun Kumar,Male,Information Tech,Semester 1,99.5,36,92.1,93.2,93.9,9.32,Medium,Master,Yes,Academic Distinction,High Performer
+STU2024180,Rohan Mehta,Male,Information Tech,Semester 3,87.3,22,71.0,72.1,71.7,7.16,Low,High School,Yes,Pass,Average Performer
+STU2024181,Aditya Shah,Female,Information Tech,Semester 2,83.9,19,64.4,79.8,67.4,7.02,Medium,Master,No,Pass,Average Performer
+STU2024182,Tanvi Patel,Male,Computer Science,Semester 3,86.7,8,68.5,73.5,74.7,7.25,Medium,Bachelor,Yes,Pass,Average Performer
+STU2024183,Simran Sharma,Female,Electronics & Comm,Semester 3,95.8,14,60.1,75.6,74.6,7.06,High,Master,No,Pass,Average Performer
+STU2024184,Neha Sharma,Male,Information Tech,Semester 5,81.2,19,70.5,73.7,77.2,7.41,Medium,Doctorate,Yes,Pass,Average Performer
+STU2024185,Rohan Kulkarni,Male,Information Tech,Semester 3,76.1,14,60.1,70.8,76.6,6.99,High,High School,Yes,Pass,Average Performer
+STU2024186,Akash Nair,Female,Civil Eng,Semester 3,90.4,15,77.5,76.3,68.8,7.37,Medium,Bachelor,Yes,Pass,Average Performer
+STU2024187,Shruti Patel,Male,Computer Science,Semester 8,80.3,31,79.8,91.0,83.5,8.46,Medium,Doctorate,Yes,Pass,Average Performer
+STU2024188,Kavya Mishra,Female,Electrical Eng,Semester 4,71.3,20,70.8,86.3,82.3,8.0,Low,Bachelor,Yes,Pass,Average Performer
+STU2024189,Divya Kulkarni,Male,Electronics & Comm,Semester 2,69.4,20,57.4,60.4,60.2,5.94,Medium,Master,Yes,Pass,Average Performer
+STU2024190,Karan Verma,Male,Electronics & Comm,Semester 8,97.3,15,90.1,88.0,79.1,8.51,High,Bachelor,Yes,Academic Distinction,High Performer
+STU2024191,Nikhil Nair,Female,Electrical Eng,Semester 8,83.3,28,80.0,84.7,75.8,7.97,High,Bachelor,Yes,Pass,Average Performer
+STU2024192,Ananya Shah,Female,Electrical Eng,Semester 4,76.1,18,67.1,80.8,75.3,7.45,Low,Bachelor,Yes,Pass,Average Performer
+STU2024193,Kavya Sharma,Female,Civil Eng,Semester 4,79.7,16,79.3,77.0,80.0,7.89,Medium,Bachelor,No,Pass,Average Performer
+STU2024194,Vikram Chopra,Male,Computer Science,Semester 1,90.1,8,55.9,71.8,71.7,6.7,Medium,Master,Yes,Pass,Average Performer
+STU2024195,Shruti Agarwal,Female,Computer Science,Semester 4,79.1,19,82.8,79.3,76.9,7.94,High,Bachelor,Yes,Pass,Average Performer
+STU2024196,Rahul Nair,Male,Electrical Eng,Semester 5,67.5,16,57.9,64.2,63.3,6.2,Medium,Bachelor,Yes,Pass,Average Performer
+STU2024197,Manish Patel,Male,Information Tech,Semester 5,85.3,31,91.7,82.8,82.6,8.54,High,Bachelor,Yes,Academic Distinction,High Performer
+STU2024198,Pooja Reddy,Female,Electronics & Comm,Semester 8,94.1,32,86.5,97.5,93.2,9.25,Low,Bachelor,No,Academic Distinction,High Performer
+STU2024199,Simran Rao,Male,Computer Science,Semester 7,93.4,11,54.7,70.4,68.2,6.48,Medium,Master,Yes,Pass,Average Performer
+STU2024200,Akash Gupta,Female,Computer Science,Semester 1,76.4,12,63.3,71.7,64.8,6.64,Low,Doctorate,Yes,Pass,Average Performer
+STU2024201,Arjun Saxena,Male,Mechanical Eng,Semester 7,94.7,18,79.6,81.9,91.2,8.49,High,Bachelor,Yes,Pass,Average Performer
+STU2024202,Aarav Joshi,Male,Computer Science,Semester 7,84.1,14,54.9,59.3,53.8,5.58,Medium,Master,Yes,Pass,Average Performer
+STU2024203,Tanvi Agarwal,Female,Electronics & Comm,Semester 8,94.4,21,75.5,80.6,80.4,7.9,Medium,Master,Yes,Pass,Average Performer
+STU2024204,Tanvi Deshmukh,Female,Computer Science,Semester 6,87.7,17,80.1,79.5,77.2,7.88,Medium,Bachelor,No,Pass,Average Performer
+STU2024205,Amit Bhat,Female,Electronics & Comm,Semester 8,66.8,21,71.7,67.8,78.5,7.32,Low,Doctorate,Yes,Pass,Average Performer
+STU2024206,Simran Verma,Female,Computer Science,Semester 2,99.5,27,84.0,76.1,87.3,8.3,Low,Bachelor,Yes,Pass,Average Performer
+STU2024207,Ananya Malhotra,Female,Information Tech,Semester 2,82.5,12,57.6,78.8,66.8,6.76,Low,High School,Yes,Pass,Average Performer
+STU2024208,Akash Shah,Female,Computer Science,Semester 4,87.8,26,96.9,85.7,89.8,9.07,Medium,Master,Yes,Academic Distinction,High Performer
+STU2024209,Neha Nair,Female,Mechanical Eng,Semester 4,68.6,14,47.7,68.2,68.4,6.21,High,Bachelor,Yes,Pass,Average Performer
+STU2024210,Sneha Bhat,Male,Computer Science,Semester 6,87.1,35,91.4,88.7,84.9,8.8,High,Master,Yes,Academic Distinction,High Performer
+STU2024211,Shruti Chopra,Male,Information Tech,Semester 4,93.0,31,77.7,94.5,77.8,8.28,Low,Master,Yes,Pass,Average Performer
+STU2024212,Simran Singh,Male,Mechanical Eng,Semester 2,99.5,19,88.1,96.0,94.6,9.31,High,High School,Yes,Academic Distinction,High Performer
+STU2024213,Aarav Joshi,Female,Electrical Eng,Semester 7,96.0,13,68.9,74.0,77.7,7.4,Medium,Master,Yes,Pass,Average Performer
+STU2024214,Varun Deshmukh,Female,Information Tech,Semester 8,87.5,11,64.6,82.6,78.8,7.57,Medium,Bachelor,Yes,Pass,Average Performer
+STU2024215,Meera Singh,Male,Electronics & Comm,Semester 3,66.6,26,95.0,76.5,86.2,8.59,Medium,Bachelor,Yes,Pass,Average Performer
+STU2024216,Rahul Gupta,Female,Electronics & Comm,Semester 5,83.3,19,66.4,71.6,80.5,7.36,Low,Bachelor,Yes,Pass,Average Performer
+STU2024217,Sneha Reddy,Female,Electrical Eng,Semester 3,76.1,26,90.6,92.1,79.6,8.66,Medium,Doctorate,Yes,Pass,Average Performer
+STU2024218,Neha Bhat,Male,Civil Eng,Semester 3,84.3,35,87.6,92.5,82.6,8.71,Medium,High School,Yes,Academic Distinction,High Performer
+STU2024219,Rohan Joshi,Female,Electrical Eng,Semester 2,69.8,14,57.9,70.2,67.9,6.56,High,Bachelor,Yes,Pass,Average Performer
+STU2024220,Neha Agarwal,Female,Information Tech,Semester 3,79.9,11,81.3,67.1,70.5,7.27,Medium,Master,Yes,Pass,Average Performer
+STU2024221,Arjun Kulkarni,Male,Electrical Eng,Semester 8,76.8,21,69.6,70.4,64.0,6.76,High,Master,Yes,Pass,Average Performer
+STU2024222,Simran Nair,Female,Information Tech,Semester 6,76.5,28,68.2,81.7,83.9,7.85,Medium,Master,Yes,Pass,Average Performer
+STU2024223,Kriti Malhotra,Male,Computer Science,Semester 1,76.6,13,63.5,78.2,63.2,6.78,Low,High School,Yes,Pass,Average Performer
+STU2024224,Dev Malhotra,Female,Information Tech,Semester 4,80.6,20,69.9,74.4,71.9,7.21,Low,Bachelor,Yes,Pass,Average Performer
+STU2024225,Simran Singh,Female,Civil Eng,Semester 1,84.9,29,86.7,85.5,85.6,8.59,High,Bachelor,Yes,Academic Distinction,High Performer
+STU2024226,Anushka Mehta,Female,Computer Science,Semester 7,57.0,8,46.3,63.6,61.0,5.74,Medium,Master,Yes,At-Risk,Needs Improvement
+STU2024227,Meera Sharma,Male,Electrical Eng,Semester 8,58.2,21,81.2,64.1,61.3,6.81,Low,Bachelor,Yes,At-Risk,Needs Improvement
+STU2024228,Anushka Sharma,Female,Computer Science,Semester 8,78.6,16,70.1,75.2,75.7,7.39,High,Bachelor,Yes,Pass,Average Performer
+STU2024229,Karan Verma,Female,Information Tech,Semester 5,80.0,20,62.4,81.3,68.1,7.03,High,Doctorate,Yes,Pass,Average Performer
+STU2024230,Kriti Agarwal,Male,Computer Science,Semester 8,83.9,24,78.4,80.0,83.2,8.08,High,High School,No,Pass,Average Performer
+STU2024231,Akash Joshi,Female,Information Tech,Semester 4,74.7,21,63.7,76.0,65.7,6.82,Medium,Doctorate,Yes,Pass,Average Performer
+STU2024232,Arjun Sharma,Male,Electrical Eng,Semester 8,82.1,12,60.3,74.6,77.5,7.15,High,Master,Yes,Pass,Average Performer
+STU2024233,Riya Rao,Female,Electronics & Comm,Semester 3,83.3,16,60.2,72.0,64.4,6.54,Low,Master,Yes,Pass,Average Performer
+STU2024234,Aditya Patel,Male,Electrical Eng,Semester 5,74.7,29,96.5,85.4,75.9,8.49,Medium,Bachelor,No,Pass,Average Performer
+STU2024235,Meera Agarwal,Male,Electrical Eng,Semester 4,92.1,22,72.7,80.4,75.3,7.6,Medium,High School,Yes,Pass,Average Performer
+STU2024236,Amit Singh,Male,Civil Eng,Semester 6,83.8,25,84.0,77.8,80.5,8.07,High,Master,Yes,Pass,Average Performer
+STU2024237,Shruti Mishra,Female,Computer Science,Semester 6,87.5,21,72.6,71.4,80.6,7.54,Medium,Master,Yes,Pass,Average Performer
+STU2024238,Simran Singh,Male,Electronics & Comm,Semester 6,82.7,25,68.8,78.3,68.6,7.16,Medium,Master,Yes,Pass,Average Performer
+STU2024239,Karan Shah,Female,Computer Science,Semester 6,99.5,17,76.8,78.5,75.7,7.69,Medium,High School,Yes,Pass,Average Performer
+STU2024240,Kriti Mishra,Male,Civil Eng,Semester 3,88.0,14,70.2,72.8,79.5,7.47,Medium,Master,Yes,Pass,Average Performer
+STU2024241,Kriti Saxena,Male,Civil Eng,Semester 8,77.1,25,80.3,82.2,73.4,7.81,Medium,Master,Yes,Pass,Average Performer
+STU2024242,Aditya Deshmukh,Female,Information Tech,Semester 1,90.2,27,62.5,76.3,72.0,7.04,Low,Master,Yes,Pass,Average Performer
+STU2024243,Riya Agarwal,Female,Mechanical Eng,Semester 4,65.6,13,47.0,51.4,51.5,5.01,Low,Master,No,At-Risk,Needs Improvement
+STU2024244,Varun Rao,Male,Information Tech,Semester 3,83.2,15,73.9,69.1,75.2,7.3,Medium,Master,Yes,Pass,Average Performer
+STU2024245,Priya Sharma,Female,Information Tech,Semester 6,85.2,18,63.3,79.8,69.7,7.08,High,Bachelor,Yes,Pass,Average Performer
+STU2024246,Kriti Singh,Female,Computer Science,Semester 7,83.3,31,87.1,88.2,82.1,8.54,High,High School,Yes,Academic Distinction,High Performer
+STU2024247,Manish Nair,Female,Electrical Eng,Semester 8,78.7,23,64.0,73.2,71.8,6.99,High,Bachelor,Yes,Pass,Average Performer
+STU2024248,Shruti Singh,Male,Computer Science,Semester 1,71.9,10,61.6,71.0,62.5,6.48,Medium,High School,No,Pass,Average Performer
+STU2024249,Priya Verma,Male,Mechanical Eng,Semester 7,74.1,19,74.9,68.3,65.6,6.92,Medium,Bachelor,Yes,Pass,Average Performer
+STU2024250,Neha Nair,Female,Electrical Eng,Semester 5,83.0,18,75.7,78.7,84.3,8.0,Medium,Bachelor,Yes,Pass,Average Performer
+STU2024251,Anushka Malhotra,Male,Electrical Eng,Semester 7,70.9,11,64.8,62.1,67.5,6.51,Low,High School,Yes,Pass,Average Performer
+STU2024252,Anushka Sharma,Female,Computer Science,Semester 5,99.5,19,90.1,79.7,97.2,8.98,Low,Bachelor,Yes,Academic Distinction,High Performer
+STU2024253,Divya Singh,Female,Electronics & Comm,Semester 5,55.6,17,48.2,57.8,57.0,5.46,Low,High School,Yes,At-Risk,Needs Improvement
+STU2024254,Arjun Gupta,Female,Electronics & Comm,Semester 6,78.8,17,60.6,77.4,63.8,6.69,Medium,Master,Yes,Pass,Average Performer
+STU2024255,Riya Agarwal,Female,Electronics & Comm,Semester 5,83.1,17,75.8,77.3,78.3,7.72,Medium,Doctorate,Yes,Pass,Average Performer
+STU2024256,Manish Verma,Female,Computer Science,Semester 2,87.1,30,94.9,93.4,87.7,9.16,High,High School,Yes,Academic Distinction,High Performer
+STU2024257,Dev Saxena,Male,Civil Eng,Semester 4,72.8,17,59.1,72.2,58.2,6.27,High,Doctorate,Yes,Pass,Average Performer
+STU2024258,Divya Deshmukh,Female,Information Tech,Semester 4,93.3,20,70.4,73.0,73.7,7.25,High,Bachelor,No,Pass,Average Performer
+STU2024259,Pooja Patel,Male,Electronics & Comm,Semester 6,68.1,19,59.8,81.9,74.1,7.22,Medium,Bachelor,Yes,Pass,Average Performer
+STU2024260,Simran Sharma,Male,Electronics & Comm,Semester 2,76.3,16,51.9,73.2,65.6,6.38,Medium,High School,Yes,Pass,Average Performer
+STU2024261,Aarav Malhotra,Female,Electronics & Comm,Semester 7,88.2,20,64.1,83.2,68.7,7.17,Low,Bachelor,Yes,Pass,Average Performer
+STU2024262,Siddharth Singh,Female,Information Tech,Semester 3,92.4,20,66.0,79.9,73.7,7.32,High,Master,Yes,Pass,Average Performer
+STU2024263,Meera Patel,Female,Information Tech,Semester 7,68.0,20,63.8,76.7,68.4,6.95,Medium,Master,Yes,Pass,Average Performer
+STU2024264,Aarav Sharma,Female,Civil Eng,Semester 8,99.5,13,72.6,73.6,69.9,7.18,Medium,High School,Yes,Pass,Average Performer
+STU2024265,Kavya Nair,Male,Information Tech,Semester 3,73.0,18,69.3,74.6,75.5,7.34,High,High School,Yes,Pass,Average Performer
+STU2024266,Siddharth Deshmukh,Male,Civil Eng,Semester 5,68.9,25,68.5,62.0,65.2,6.52,Medium,Bachelor,Yes,Pass,Average Performer
+STU2024267,Yash Reddy,Female,Mechanical Eng,Semester 1,87.0,18,67.5,82.0,69.5,7.26,High,Bachelor,Yes,Pass,Average Performer
+STU2024268,Meera Mishra,Male,Computer Science,Semester 3,78.5,21,72.6,69.6,65.5,6.89,Medium,Bachelor,No,Pass,Average Performer
+STU2024269,Ananya Malhotra,Male,Civil Eng,Semester 1,77.0,21,59.0,77.0,74.4,7.06,Medium,Bachelor,Yes,Pass,Average Performer
+STU2024270,Pooja Patel,Male,Computer Science,Semester 4,88.0,22,84.3,89.7,85.0,8.62,High,Master,Yes,Academic Distinction,High Performer
+STU2024271,Manish Shah,Male,Mechanical Eng,Semester 1,66.7,23,79.6,76.7,82.0,7.97,High,Doctorate,Yes,Pass,Average Performer
+STU2024272,Anushka Joshi,Male,Electronics & Comm,Semester 4,65.0,18,57.6,74.2,72.8,6.87,Medium,Bachelor,Yes,Pass,Average Performer
+STU2024273,Yash Nair,Male,Mechanical Eng,Semester 2,76.0,13,57.8,75.1,72.6,6.89,Low,Doctorate,Yes,Pass,Average Performer
+STU2024274,Anushka Verma,Male,Mechanical Eng,Semester 2,92.8,11,75.3,72.1,75.0,7.42,Medium,Bachelor,Yes,Pass,Average Performer
+STU2024275,Amit Mehta,Male,Mechanical Eng,Semester 6,76.5,27,77.0,83.4,66.7,7.48,Medium,Bachelor,Yes,Pass,Average Performer
+STU2024276,Rahul Gupta,Female,Electrical Eng,Semester 6,98.0,25,88.9,78.7,88.7,8.58,Medium,Bachelor,Yes,Academic Distinction,High Performer
+STU2024277,Anushka Kulkarni,Male,Electronics & Comm,Semester 5,94.0,24,80.7,82.1,94.3,8.66,Low,Bachelor,Yes,Academic Distinction,High Performer
+STU2024278,Arjun Chopra,Male,Computer Science,Semester 3,84.8,25,91.4,90.8,89.7,9.05,Low,Doctorate,Yes,Academic Distinction,High Performer
+STU2024279,Yash Gupta,Female,Electronics & Comm,Semester 5,85.4,18,74.7,74.8,66.9,7.16,Medium,Bachelor,No,Pass,Average Performer
+STU2024280,Akash Gupta,Male,Computer Science,Semester 4,84.8,15,71.3,63.2,67.8,6.75,Medium,Bachelor,Yes,Pass,Average Performer
+STU2024281,Isha Singh,Female,Electrical Eng,Semester 5,83.6,13,68.6,84.3,76.2,7.64,Low,Bachelor,Yes,Pass,Average Performer
+STU2024282,Vikram Patel,Female,Electronics & Comm,Semester 1,78.3,12,56.3,72.1,60.7,6.28,Medium,High School,Yes,Pass,Average Performer
+STU2024283,Dev Patel,Male,Civil Eng,Semester 4,79.5,28,76.7,86.7,67.9,7.62,Medium,Master,Yes,Pass,Average Performer
+STU2024284,Riya Gupta,Male,Information Tech,Semester 6,71.3,16,68.9,62.6,66.7,6.61,High,Bachelor,Yes,Pass,Average Performer
+STU2024285,Pooja Shah,Female,Mechanical Eng,Semester 2,59.9,27,72.4,73.3,66.3,7.02,Low,Bachelor,Yes,At-Risk,Needs Improvement
+STU2024286,Rahul Singh,Female,Computer Science,Semester 6,93.0,18,64.4,82.4,85.3,7.82,Low,Bachelor,Yes,Pass,Average Performer
+STU2024287,Meera Shah,Male,Mechanical Eng,Semester 3,83.6,15,81.4,68.9,78.0,7.63,High,Bachelor,Yes,Pass,Average Performer
+STU2024288,Manish Reddy,Female,Civil Eng,Semester 4,82.1,12,70.1,69.6,74.7,7.18,Medium,High School,Yes,Pass,Average Performer
+STU2024289,Manish Patel,Male,Information Tech,Semester 4,86.0,15,67.7,66.0,70.2,6.82,Medium,Master,Yes,Pass,Average Performer
+STU2024290,Vikram Shah,Female,Information Tech,Semester 1,73.7,29,77.1,78.0,77.2,7.74,High,Bachelor,Yes,Pass,Average Performer
+STU2024291,Dev Saxena,Male,Electrical Eng,Semester 3,72.0,12,59.8,71.4,58.0,6.26,Low,Master,Yes,Pass,Average Performer
+STU2024292,Riya Reddy,Female,Computer Science,Semester 2,79.2,34,91.6,82.3,80.7,8.44,High,Master,Yes,Pass,Average Performer
+STU2024293,Nikhil Malhotra,Female,Information Tech,Semester 7,95.7,14,53.8,90.5,80.5,7.55,High,Master,No,Pass,Average Performer
+STU2024294,Dev Gupta,Female,Electronics & Comm,Semester 4,70.3,25,90.0,66.5,78.9,7.85,Medium,Bachelor,No,Pass,Average Performer
+STU2024295,Meera Mehta,Male,Computer Science,Semester 4,55.7,18,52.6,60.7,54.1,5.56,Medium,Bachelor,Yes,At-Risk,Needs Improvement
+STU2024296,Amit Deshmukh,Male,Electronics & Comm,Semester 1,76.8,17,66.1,68.1,71.4,6.88,High,High School,Yes,Pass,Average Performer
+STU2024297,Vikram Rao,Male,Computer Science,Semester 5,93.4,11,65.8,74.4,76.9,7.28,Medium,Master,Yes,Pass,Average Performer
+STU2024298,Simran Mishra,Male,Computer Science,Semester 8,64.7,19,79.7,75.8,85.3,8.08,Medium,Bachelor,No,At-Risk,Needs Improvement
+STU2024299,Neha Malhotra,Male,Computer Science,Semester 2,70.2,11,55.6,58.0,60.2,5.82,High,Bachelor,Yes,Pass,Average Performer
+STU2024300,Anushka Bhat,Female,Civil Eng,Semester 6,84.6,8,71.1,66.0,66.7,6.78,High,Bachelor,Yes,Pass,Average Performer
+STU2024301,Riya Singh,Male,Information Tech,Semester 3,99.5,20,82.1,89.7,87.7,8.66,Medium,High School,Yes,Academic Distinction,High Performer
+STU2024302,Rohan Deshmukh,Male,Civil Eng,Semester 4,68.4,15,52.7,66.8,63.8,6.14,High,Bachelor,Yes,Pass,Average Performer
+STU2024303,Akash Saxena,Female,Electronics & Comm,Semester 4,68.0,31,80.5,79.9,82.8,8.12,Low,High School,Yes,Pass,Average Performer
+STU2024304,Nikhil Gupta,Female,Electronics & Comm,Semester 6,85.4,27,80.6,78.5,72.7,7.68,Low,Master,Yes,Pass,Average Performer
+STU2024305,Varun Agarwal,Female,Information Tech,Semester 2,94.0,31,81.1,91.4,88.6,8.72,Low,Bachelor,Yes,Academic Distinction,High Performer
+STU2024306,Akash Rao,Female,Electronics & Comm,Semester 8,75.8,15,66.2,76.7,67.3,6.98,High,High School,Yes,Pass,Average Performer
+STU2024307,Arjun Nair,Male,Computer Science,Semester 5,65.8,20,65.5,59.2,60.5,6.16,Low,Bachelor,Yes,Pass,Average Performer
+STU2024308,Anushka Rao,Male,Information Tech,Semester 4,86.3,6,61.2,63.8,71.4,6.61,Medium,High School,Yes,Pass,Average Performer
+STU2024309,Tanvi Singh,Female,Computer Science,Semester 8,88.1,18,73.4,67.6,78.0,7.35,Medium,Bachelor,Yes,Pass,Average Performer
+STU2024310,Rohan Chopra,Female,Information Tech,Semester 2,99.5,20,73.6,89.0,80.8,8.11,High,Master,Yes,Pass,Average Performer
+STU2024311,Siddharth Kulkarni,Male,Electrical Eng,Semester 6,88.6,21,81.8,88.5,84.7,8.5,High,High School,Yes,Academic Distinction,High Performer
+STU2024312,Karan Deshmukh,Female,Computer Science,Semester 1,90.3,19,68.9,79.2,74.1,7.41,Medium,Master,Yes,Pass,Average Performer
+STU2024313,Vikram Nair,Male,Computer Science,Semester 5,79.4,20,46.0,69.7,75.4,6.49,Medium,High School,Yes,Pass,Average Performer
+STU2024314,Anushka Deshmukh,Male,Electrical Eng,Semester 3,99.5,6,63.0,68.7,73.7,6.9,High,Bachelor,Yes,Pass,Average Performer
+STU2024315,Dev Kumar,Female,Information Tech,Semester 4,78.0,21,67.0,74.0,67.5,6.93,Medium,Master,Yes,Pass,Average Performer
+STU2024316,Rahul Mishra,Female,Computer Science,Semester 2,75.9,23,76.0,74.5,82.1,7.8,High,Bachelor,Yes,Pass,Average Performer
+STU2024317,Arjun Joshi,Female,Civil Eng,Semester 1,99.5,29,99.0,98.4,99.5,9.85,Medium,High School,Yes,Academic Distinction,High Performer
+STU2024318,Isha Mehta,Male,Computer Science,Semester 3,67.3,22,84.5,67.2,84.0,7.91,Medium,Bachelor,Yes,Pass,Average Performer
+STU2024319,Pooja Verma,Female,Electrical Eng,Semester 7,63.5,19,61.9,69.6,75.4,6.96,Low,Bachelor,Yes,At-Risk,Needs Improvement
+STU2024320,Aditya Singh,Male,Civil Eng,Semester 2,83.2,27,74.1,81.4,82.0,7.94,Low,Master,Yes,Pass,Average Performer
+STU2024321,Sneha Malhotra,Male,Computer Science,Semester 2,82.0,6,59.7,61.3,63.0,6.15,Medium,Bachelor,Yes,Pass,Average Performer
+STU2024322,Kavya Agarwal,Female,Computer Science,Semester 3,79.7,16,63.1,70.7,68.1,6.74,Medium,Master,Yes,Pass,Average Performer
+STU2024323,Arjun Sharma,Female,Computer Science,Semester 1,91.9,14,71.7,79.2,76.9,7.6,Medium,Master,Yes,Pass,Average Performer
+STU2024324,Shruti Saxena,Female,Electronics & Comm,Semester 7,72.9,19,61.7,77.1,67.3,6.86,Low,Bachelor,Yes,Pass,Average Performer
+STU2024325,Dev Rao,Female,Computer Science,Semester 8,82.6,6,57.2,64.6,71.1,6.5,Medium,Doctorate,Yes,Pass,Average Performer
+STU2024326,Akash Reddy,Female,Electrical Eng,Semester 8,78.4,29,74.7,75.2,75.6,7.52,High,Bachelor,Yes,Pass,Average Performer
+STU2024327,Priya Gupta,Female,Computer Science,Semester 6,73.1,18,75.3,76.9,80.3,7.78,High,Doctorate,No,Pass,Average Performer
+STU2024328,Sneha Malhotra,Male,Information Tech,Semester 1,81.4,22,69.2,72.9,76.3,7.32,Medium,High School,Yes,Pass,Average Performer
+STU2024329,Yash Deshmukh,Male,Civil Eng,Semester 5,90.5,21,81.7,83.6,78.6,8.1,Medium,Master,Yes,Pass,Average Performer
+STU2024330,Shruti Rao,Male,Mechanical Eng,Semester 4,99.5,28,78.3,92.0,78.7,8.26,Low,Bachelor,Yes,Pass,Average Performer
+STU2024331,Nikhil Nair,Male,Information Tech,Semester 3,87.8,6,63.6,67.7,63.7,6.49,High,Bachelor,Yes,Pass,Average Performer
+STU2024332,Anushka Malhotra,Female,Electronics & Comm,Semester 6,56.9,20,54.0,61.5,55.1,5.67,Medium,Bachelor,Yes,At-Risk,Needs Improvement
+STU2024333,Rahul Patel,Male,Information Tech,Semester 7,81.6,28,83.3,86.9,84.9,8.5,Low,Master,Yes,Academic Distinction,High Performer
+STU2024334,Arjun Reddy,Male,Information Tech,Semester 3,82.5,19,79.0,55.0,68.1,6.74,Low,High School,Yes,Pass,Average Performer
+STU2024335,Pooja Saxena,Male,Electronics & Comm,Semester 3,91.4,13,65.6,82.9,80.3,7.67,Medium,High School,Yes,Pass,Average Performer
+STU2024336,Simran Joshi,Female,Computer Science,Semester 1,83.8,15,58.3,68.4,64.3,6.37,Medium,Master,Yes,Pass,Average Performer
+STU2024337,Yash Mehta,Male,Mechanical Eng,Semester 4,94.5,17,77.2,83.3,84.1,8.18,Medium,Master,Yes,Pass,Average Performer
+STU2024338,Rahul Sharma,Female,Electronics & Comm,Semester 5,85.9,14,59.4,76.3,71.2,6.92,Low,Doctorate,Yes,Pass,Average Performer
+STU2024339,Rohan Reddy,Male,Computer Science,Semester 8,97.6,18,72.4,90.8,92.6,8.6,High,Master,No,Academic Distinction,High Performer
+STU2024340,Simran Shah,Male,Electronics & Comm,Semester 2,77.6,30,84.2,84.0,77.9,8.16,Low,Doctorate,Yes,Pass,Average Performer
+STU2024341,Akash Sharma,Female,Electronics & Comm,Semester 2,83.4,15,77.2,68.7,86.5,7.84,Medium,Master,Yes,Pass,Average Performer
+STU2024342,Sneha Kumar,Female,Mechanical Eng,Semester 3,90.3,16,70.5,68.3,70.7,6.99,Medium,Bachelor,Yes,Pass,Average Performer
+STU2024343,Anushka Deshmukh,Male,Electrical Eng,Semester 8,76.3,23,73.3,74.5,67.6,7.14,High,High School,Yes,Pass,Average Performer
+STU2024344,Arjun Reddy,Female,Electrical Eng,Semester 8,74.1,18,72.1,59.7,67.1,6.64,Medium,Master,Yes,Pass,Average Performer
+STU2024345,Yash Bhat,Female,Computer Science,Semester 4,75.7,10,57.7,62.1,79.0,6.75,Medium,Bachelor,Yes,Pass,Average Performer
+STU2024346,Varun Agarwal,Male,Electronics & Comm,Semester 7,74.5,19,72.7,70.7,76.8,7.37,High,High School,Yes,Pass,Average Performer
+STU2024347,Shruti Chopra,Female,Information Tech,Semester 7,87.2,19,81.3,74.7,83.2,8.01,Medium,Bachelor,Yes,Pass,Average Performer
+STU2024348,Simran Singh,Female,Computer Science,Semester 6,63.7,26,69.1,72.9,73.3,7.19,Low,Doctorate,Yes,At-Risk,Needs Improvement
+STU2024349,Priya Patel,Female,Electronics & Comm,Semester 1,66.4,13,35.0,62.2,47.0,4.8,Medium,Bachelor,Yes,At-Risk,Needs Improvement
+STU2024350,Amit Saxena,Female,Electrical Eng,Semester 4,99.5,26,79.5,88.6,88.3,8.57,Medium,Bachelor,Yes,Academic Distinction,High Performer
+STU2024351,Akash Kulkarni,Female,Computer Science,Semester 4,74.7,19,77.3,58.0,70.0,6.86,High,Bachelor,Yes,Pass,Average Performer
+STU2024352,Karan Mehta,Female,Information Tech,Semester 1,84.0,12,62.7,63.8,76.4,6.85,Medium,Bachelor,Yes,Pass,Average Performer
+STU2024353,Dev Mishra,Female,Computer Science,Semester 8,67.1,10,51.1,65.4,58.8,5.85,High,Bachelor,Yes,Pass,Average Performer
+STU2024354,Karan Sharma,Female,Computer Science,Semester 7,82.9,33,97.1,92.7,90.8,9.33,Medium,Bachelor,Yes,Academic Distinction,High Performer
+STU2024355,Varun Patel,Female,Computer Science,Semester 7,74.8,18,65.7,60.8,60.0,6.2,Low,High School,Yes,Pass,Average Performer
+STU2024356,Riya Chopra,Female,Civil Eng,Semester 8,66.4,26,56.0,69.1,63.4,6.29,Medium,Master,Yes,Pass,Average Performer
+STU2024357,Meera Nair,Female,Mechanical Eng,Semester 7,95.4,8,50.7,80.5,71.5,6.8,High,Bachelor,Yes,Pass,Average Performer
+STU2024358,Riya Joshi,Male,Civil Eng,Semester 3,93.8,38,99.0,93.0,89.9,9.36,Medium,Master,Yes,Academic Distinction,High Performer
+STU2024359,Sneha Deshmukh,Female,Information Tech,Semester 4,80.9,26,78.0,80.6,81.8,8.03,Medium,Master,Yes,Pass,Average Performer
+STU2024360,Divya Joshi,Female,Computer Science,Semester 2,92.0,18,85.0,89.1,89.0,8.78,Medium,Bachelor,Yes,Academic Distinction,High Performer
+STU2024361,Anushka Gupta,Male,Information Tech,Semester 1,99.5,17,69.3,81.2,84.6,7.9,Low,Master,No,Pass,Average Performer
+STU2024362,Anushka Joshi,Female,Information Tech,Semester 7,89.5,25,78.3,81.7,87.8,8.31,Low,Bachelor,Yes,Pass,Average Performer
+STU2024363,Anushka Kulkarni,Male,Mechanical Eng,Semester 6,86.8,24,71.4,81.7,78.6,7.74,Medium,Master,Yes,Pass,Average Performer
+STU2024364,Simran Singh,Male,Computer Science,Semester 7,84.0,21,69.6,89.9,74.4,7.76,Medium,Bachelor,Yes,Pass,Average Performer
+STU2024365,Vikram Gupta,Female,Information Tech,Semester 7,88.5,20,59.3,82.9,69.2,7.03,High,Master,Yes,Pass,Average Performer
+STU2024366,Nikhil Shah,Male,Computer Science,Semester 5,78.4,23,70.9,77.7,83.6,7.8,High,Bachelor,Yes,Pass,Average Performer
+STU2024367,Vikram Sharma,Female,Electronics & Comm,Semester 3,79.2,7,54.7,62.1,63.0,6.02,Medium,Bachelor,Yes,Pass,Average Performer
+STU2024368,Varun Saxena,Female,Electrical Eng,Semester 1,86.5,17,68.9,80.1,85.1,7.87,Medium,High School,Yes,Pass,Average Performer
+STU2024369,Arjun Agarwal,Male,Information Tech,Semester 5,77.3,8,72.7,69.0,74.8,7.24,Medium,Master,Yes,Pass,Average Performer
+STU2024370,Yash Reddy,Male,Electronics & Comm,Semester 5,78.3,24,89.8,71.9,85.0,8.25,Medium,Master,Yes,Pass,Average Performer
+STU2024371,Tanvi Patel,Male,Electronics & Comm,Semester 6,82.0,15,59.8,77.1,75.0,7.11,High,Bachelor,Yes,Pass,Average Performer
+STU2024372,Yash Kumar,Female,Information Tech,Semester 4,93.5,8,45.6,72.2,58.4,5.87,Medium,Bachelor,Yes,Pass,Average Performer
+STU2024373,Pooja Malhotra,Female,Electrical Eng,Semester 6,70.7,14,59.3,66.7,65.7,6.41,High,Bachelor,Yes,Pass,Average Performer
+STU2024374,Aditya Bhat,Female,Mechanical Eng,Semester 4,89.6,21,79.1,76.3,74.0,7.62,High,Master,Yes,Pass,Average Performer
+STU2024375,Akash Verma,Male,Civil Eng,Semester 4,89.9,18,65.7,77.0,73.1,7.2,Low,High School,Yes,Pass,Average Performer
+STU2024376,Isha Kulkarni,Female,Electrical Eng,Semester 1,89.9,11,57.7,67.6,70.8,6.59,High,Master,Yes,Pass,Average Performer
+STU2024377,Nikhil Reddy,Female,Electronics & Comm,Semester 7,73.9,8,66.8,56.9,59.6,6.1,Medium,Bachelor,Yes,Pass,Average Performer
+STU2024378,Aditya Sharma,Female,Electrical Eng,Semester 1,65.1,20,63.0,70.8,68.9,6.77,High,Bachelor,Yes,Pass,Average Performer
+STU2024379,Shruti Sharma,Male,Electronics & Comm,Semester 3,87.6,15,73.3,73.7,68.8,7.16,Low,High School,Yes,Pass,Average Performer
+STU2024380,Pooja Bhat,Female,Electronics & Comm,Semester 4,83.9,18,62.7,68.6,74.7,6.93,Medium,High School,Yes,Pass,Average Performer
+STU2024381,Dev Chopra,Female,Mechanical Eng,Semester 5,92.0,18,72.9,93.5,80.6,8.22,High,Bachelor,Yes,Pass,Average Performer
+STU2024382,Varun Shah,Female,Computer Science,Semester 7,75.0,23,69.9,69.2,65.5,6.79,Medium,Bachelor,Yes,Pass,Average Performer
+STU2024383,Arjun Sharma,Male,Civil Eng,Semester 2,89.6,25,75.4,91.4,76.7,8.07,Medium,Master,Yes,Pass,Average Performer
+STU2024384,Ananya Mehta,Female,Information Tech,Semester 3,92.5,21,86.4,74.2,80.5,8.04,Low,High School,Yes,Pass,Average Performer
+STU2024385,Rohan Sharma,Female,Information Tech,Semester 1,81.0,17,56.7,76.8,59.1,6.37,High,Bachelor,No,Pass,Average Performer
+STU2024386,Varun Agarwal,Male,Electrical Eng,Semester 6,86.2,20,75.9,77.6,75.8,7.64,Low,Bachelor,Yes,Pass,Average Performer
+STU2024387,Manish Kumar,Female,Mechanical Eng,Semester 3,85.8,17,66.9,72.7,78.2,7.32,Low,High School,Yes,Pass,Average Performer
+STU2024388,Simran Shah,Female,Information Tech,Semester 3,73.8,8,57.4,64.5,62.2,6.14,Low,High School,Yes,Pass,Average Performer
+STU2024389,Aditya Singh,Male,Information Tech,Semester 7,87.3,27,79.6,85.6,77.4,8.05,Medium,Bachelor,Yes,Pass,Average Performer
+STU2024390,Sneha Patel,Male,Computer Science,Semester 3,98.2,26,92.4,85.0,92.1,9.01,Medium,Bachelor,No,Academic Distinction,High Performer
+STU2024391,Varun Singh,Female,Information Tech,Semester 3,82.2,33,80.0,82.4,82.0,8.15,Medium,Bachelor,Yes,Pass,Average Performer
+STU2024392,Varun Singh,Male,Computer Science,Semester 2,67.4,35,93.2,72.3,90.5,8.58,Medium,Bachelor,Yes,Pass,Average Performer
+STU2024393,Isha Nair,Female,Electrical Eng,Semester 8,75.1,11,58.0,68.2,68.9,6.54,Medium,Bachelor,Yes,Pass,Average Performer
+STU2024394,Amit Shah,Male,Information Tech,Semester 6,64.2,17,50.5,58.2,57.5,5.56,Medium,High School,Yes,At-Risk,Needs Improvement
+STU2024395,Varun Mishra,Female,Electrical Eng,Semester 6,94.9,37,99.0,97.1,99.5,9.85,Medium,Bachelor,Yes,Academic Distinction,High Performer
+STU2024396,Vikram Mishra,Male,Computer Science,Semester 6,89.6,19,72.0,83.6,78.9,7.82,Medium,Doctorate,No,Pass,Average Performer
+STU2024397,Aarav Malhotra,Female,Computer Science,Semester 4,77.0,21,57.3,76.5,67.6,6.72,Low,Bachelor,Yes,Pass,Average Performer
+STU2024398,Arjun Reddy,Female,Electrical Eng,Semester 5,67.8,9,55.6,56.8,66.8,6.04,High,Master,Yes,Pass,Average Performer
+STU2024399,Priya Sharma,Female,Computer Science,Semester 8,73.7,21,77.7,79.1,69.2,7.47,Low,Bachelor,Yes,Pass,Average Performer
+STU2024400,Dev Joshi,Female,Computer Science,Semester 6,75.6,33,95.1,81.8,91.4,8.96,Medium,Master,Yes,Pass,Average Performer
+STU2024401,Ananya Joshi,Male,Computer Science,Semester 3,83.1,29,80.0,76.7,78.9,7.86,Low,Master,Yes,Pass,Average Performer
+STU2024402,Rahul Verma,Female,Civil Eng,Semester 3,82.8,15,67.3,71.7,70.5,6.99,Medium,Bachelor,Yes,Pass,Average Performer
+STU2024403,Shruti Patel,Male,Electrical Eng,Semester 6,95.4,17,74.0,84.8,79.3,7.94,Medium,Doctorate,No,Pass,Average Performer
+STU2024404,Nikhil Kulkarni,Male,Electronics & Comm,Semester 7,75.1,12,71.4,63.1,70.0,6.83,Low,High School,Yes,Pass,Average Performer
+STU2024405,Meera Sharma,Male,Electronics & Comm,Semester 6,66.9,14,52.1,69.9,61.1,6.1,High,High School,Yes,Pass,Average Performer
+STU2024406,Shruti Deshmukh,Male,Electronics & Comm,Semester 3,70.4,6,46.6,55.4,52.4,5.16,Low,Master,Yes,At-Risk,Needs Improvement
+STU2024407,Aditya Shah,Female,Electrical Eng,Semester 4,81.8,19,63.8,72.3,66.9,6.76,Medium,Master,Yes,Pass,Average Performer
+STU2024408,Riya Bhat,Female,Electrical Eng,Semester 1,74.7,30,69.3,75.1,62.9,6.85,Medium,High School,Yes,Pass,Average Performer
+STU2024409,Manish Bhat,Male,Computer Science,Semester 1,79.1,22,75.0,81.3,74.4,7.67,Medium,Bachelor,Yes,Pass,Average Performer
+STU2024410,Aditya Mishra,Male,Computer Science,Semester 8,77.5,29,93.6,81.6,83.6,8.6,Medium,High School,Yes,Pass,Average Performer
+STU2024411,Ananya Chopra,Female,Computer Science,Semester 8,91.9,27,82.6,81.7,84.9,8.32,Medium,Bachelor,Yes,Pass,Average Performer
+STU2024412,Amit Rao,Male,Electrical Eng,Semester 6,76.1,16,57.6,68.5,74.9,6.78,High,Master,Yes,Pass,Average Performer
+STU2024413,Sneha Verma,Male,Electrical Eng,Semester 2,78.2,14,64.6,51.9,59.8,5.89,High,Bachelor,Yes,Pass,Average Performer
+STU2024414,Sneha Kulkarni,Male,Electronics & Comm,Semester 6,89.2,14,72.2,80.5,73.4,7.52,High,Bachelor,Yes,Pass,Average Performer
+STU2024415,Ananya Kulkarni,Female,Computer Science,Semester 7,76.4,7,52.7,62.8,57.4,5.76,Low,Bachelor,Yes,Pass,Average Performer
+STU2024416,Kriti Bhat,Female,Computer Science,Semester 6,86.2,20,84.7,64.7,78.8,7.63,Low,High School,Yes,Pass,Average Performer
+STU2024417,Nikhil Malhotra,Male,Civil Eng,Semester 8,85.3,6,49.8,58.7,63.0,5.78,Medium,Bachelor,Yes,Pass,Average Performer
+STU2024418,Ananya Saxena,Male,Electronics & Comm,Semester 1,83.4,24,74.9,78.4,81.5,7.86,Medium,Bachelor,Yes,Pass,Average Performer
+STU2024419,Akash Kumar,Female,Electrical Eng,Semester 3,70.7,20,69.6,63.5,71.8,6.86,Medium,Doctorate,Yes,Pass,Average Performer
+STU2024420,Aarav Bhat,Female,Information Tech,Semester 6,94.3,23,83.5,90.3,92.9,8.93,Medium,Master,Yes,Academic Distinction,High Performer
+STU2024421,Simran Nair,Male,Electronics & Comm,Semester 3,99.5,27,87.6,93.9,90.8,9.08,Low,High School,Yes,Academic Distinction,High Performer
+STU2024422,Amit Shah,Female,Computer Science,Semester 3,82.1,21,62.8,80.0,82.9,7.6,Low,Master,Yes,Pass,Average Performer
+STU2024423,Aditya Gupta,Male,Computer Science,Semester 2,71.5,31,99.0,64.9,79.8,8.11,Medium,Master,Yes,Pass,Average Performer
+STU2024424,Isha Shah,Male,Information Tech,Semester 3,82.3,24,74.8,77.2,77.7,7.67,Medium,Master,Yes,Pass,Average Performer
+STU2024425,Isha Shah,Female,Electrical Eng,Semester 1,91.9,14,69.4,73.0,81.6,7.54,High,Bachelor,Yes,Pass,Average Performer
+STU2024426,Simran Saxena,Male,Information Tech,Semester 4,75.8,18,71.9,66.6,73.7,7.1,Low,Bachelor,Yes,Pass,Average Performer
+STU2024427,Divya Singh,Female,Information Tech,Semester 4,80.7,6,49.4,62.7,49.1,5.33,High,Bachelor,Yes,At-Risk,Needs Improvement
+STU2024428,Ananya Kumar,Male,Computer Science,Semester 5,85.4,13,65.2,66.3,69.7,6.73,Medium,High School,Yes,Pass,Average Performer
+STU2024429,Varun Verma,Male,Civil Eng,Semester 7,94.0,17,67.6,81.9,82.2,7.77,Medium,Bachelor,Yes,Pass,Average Performer
+STU2024430,Arjun Chopra,Female,Electrical Eng,Semester 6,89.8,23,81.8,87.9,78.8,8.24,Medium,Bachelor,Yes,Pass,Average Performer
+STU2024431,Siddharth Agarwal,Male,Electronics & Comm,Semester 7,90.2,14,65.7,80.4,79.5,7.56,High,Bachelor,Yes,Pass,Average Performer
+STU2024432,Siddharth Malhotra,Female,Civil Eng,Semester 1,77.7,11,61.4,66.8,68.5,6.59,Low,Master,Yes,Pass,Average Performer
+STU2024433,Karan Agarwal,Male,Information Tech,Semester 3,86.0,6,48.2,79.8,72.7,6.75,High,Bachelor,Yes,Pass,Average Performer
+STU2024434,Siddharth Agarwal,Male,Information Tech,Semester 4,74.8,15,56.3,76.2,63.5,6.52,Medium,High School,Yes,Pass,Average Performer
+STU2024435,Kavya Gupta,Male,Electrical Eng,Semester 7,90.5,33,79.9,91.0,90.9,8.76,High,Doctorate,Yes,Academic Distinction,High Performer
+STU2024436,Kavya Gupta,Female,Mechanical Eng,Semester 1,93.5,21,71.9,80.7,80.1,7.78,Medium,Doctorate,No,Pass,Average Performer
+STU2024437,Divya Patel,Male,Electrical Eng,Semester 4,87.5,26,60.6,92.6,86.0,8.04,Medium,Master,Yes,Pass,Average Performer
+STU2024438,Rohan Kulkarni,Female,Computer Science,Semester 3,78.3,13,59.5,75.6,82.8,7.36,Medium,Doctorate,No,Pass,Average Performer
+STU2024439,Yash Malhotra,Male,Electronics & Comm,Semester 7,80.0,8,52.3,57.9,67.5,6.01,High,Bachelor,Yes,Pass,Average Performer
+STU2024440,Amit Singh,Female,Civil Eng,Semester 4,99.5,11,69.2,85.1,83.2,7.96,High,Doctorate,Yes,Pass,Average Performer
+STU2024441,Pooja Nair,Male,Computer Science,Semester 6,78.5,19,69.6,73.5,84.4,7.67,Medium,High School,Yes,Pass,Average Performer
+STU2024442,Yash Kumar,Female,Electronics & Comm,Semester 8,92.5,6,69.3,65.9,75.8,7.09,Medium,Bachelor,No,Pass,Average Performer
+STU2024443,Aarav Singh,Female,Electronics & Comm,Semester 6,85.4,12,84.3,60.4,71.6,7.2,Low,Bachelor,Yes,Pass,Average Performer
+STU2024444,Vikram Deshmukh,Female,Electronics & Comm,Semester 5,78.7,15,73.6,69.7,73.1,7.22,High,High School,Yes,Pass,Average Performer
+STU2024445,Anushka Mishra,Female,Information Tech,Semester 5,68.6,10,50.8,62.2,62.2,5.88,Medium,High School,Yes,Pass,Average Performer
+STU2024446,Ananya Shah,Female,Civil Eng,Semester 4,84.1,6,51.9,76.4,71.0,6.69,High,Bachelor,Yes,Pass,Average Performer
+STU2024447,Tanvi Reddy,Female,Computer Science,Semester 8,82.9,22,81.5,84.8,77.3,8.08,High,Master,Yes,Pass,Average Performer
+STU2024448,Nikhil Mehta,Male,Computer Science,Semester 1,99.5,20,65.3,82.3,72.6,7.33,Medium,Bachelor,Yes,Pass,Average Performer
+STU2024449,Anushka Bhat,Male,Computer Science,Semester 6,73.4,25,71.8,79.0,72.9,7.44,Medium,High School,Yes,Pass,Average Performer
+STU2024450,Akash Bhat,Female,Mechanical Eng,Semester 1,99.5,12,67.3,84.3,82.4,7.84,High,Master,Yes,Pass,Average Performer
+STU2024451,Divya Chopra,Female,Information Tech,Semester 8,85.8,25,84.0,83.4,87.5,8.52,High,Bachelor,Yes,Academic Distinction,High Performer
+STU2024452,Riya Shah,Female,Electronics & Comm,Semester 1,85.8,30,90.2,83.4,87.6,8.71,High,Bachelor,Yes,Academic Distinction,High Performer
+STU2024453,Anushka Gupta,Male,Mechanical Eng,Semester 8,76.1,21,64.7,71.7,65.3,6.7,Low,Master,Yes,Pass,Average Performer
+STU2024454,Aarav Joshi,Male,Mechanical Eng,Semester 4,85.1,15,63.7,76.9,81.3,7.47,Low,Bachelor,No,Pass,Average Performer
+STU2024455,Dev Patel,Male,Mechanical Eng,Semester 1,86.7,21,78.4,82.6,76.2,7.88,High,Bachelor,Yes,Pass,Average Performer
+STU2024456,Yash Saxena,Female,Civil Eng,Semester 6,91.4,15,63.2,75.9,79.8,7.36,High,Doctorate,Yes,Pass,Average Performer
+STU2024457,Karan Bhat,Male,Electronics & Comm,Semester 3,72.2,14,70.3,51.6,67.8,6.37,Low,Bachelor,Yes,Pass,Average Performer
+STU2024458,Divya Mishra,Male,Electrical Eng,Semester 5,96.1,24,87.1,79.5,92.6,8.7,Low,Bachelor,Yes,Academic Distinction,High Performer
+STU2024459,Anushka Mishra,Male,Information Tech,Semester 3,85.6,19,73.4,81.7,76.5,7.71,Medium,Master,Yes,Pass,Average Performer
+STU2024460,Divya Verma,Male,Mechanical Eng,Semester 1,88.1,28,87.0,73.7,81.9,8.1,High,Master,Yes,Pass,Average Performer
+STU2024461,Arjun Mishra,Female,Electrical Eng,Semester 3,79.8,16,62.4,79.8,72.2,7.15,High,High School,Yes,Pass,Average Performer
+STU2024462,Nikhil Malhotra,Male,Electrical Eng,Semester 6,72.7,17,59.5,76.2,65.6,6.69,Medium,High School,Yes,Pass,Average Performer
+STU2024463,Rahul Patel,Female,Electrical Eng,Semester 6,82.7,16,63.9,74.4,72.5,7.05,Medium,High School,Yes,Pass,Average Performer
+STU2024464,Karan Mishra,Male,Computer Science,Semester 1,83.9,12,67.0,75.1,81.1,7.51,High,Bachelor,Yes,Pass,Average Performer
+STU2024465,Siddharth Bhat,Male,Information Tech,Semester 4,68.1,25,73.8,77.2,67.4,7.23,Medium,Bachelor,Yes,Pass,Average Performer
+STU2024466,Simran Reddy,Male,Civil Eng,Semester 3,89.9,35,89.6,92.2,87.3,8.95,High,High School,No,Academic Distinction,High Performer
+STU2024467,Pooja Kumar,Male,Civil Eng,Semester 4,92.0,17,78.2,71.4,74.8,7.48,Medium,Doctorate,Yes,Pass,Average Performer
+STU2024468,Rohan Malhotra,Male,Computer Science,Semester 4,74.7,15,61.5,75.2,68.5,6.84,Medium,Bachelor,Yes,Pass,Average Performer
+STU2024469,Karan Singh,Male,Computer Science,Semester 8,71.8,14,55.0,75.5,64.9,6.51,High,Bachelor,Yes,Pass,Average Performer
+STU2024470,Simran Nair,Female,Computer Science,Semester 2,79.0,15,66.6,64.2,72.1,6.81,Medium,Bachelor,Yes,Pass,Average Performer
+STU2024471,Rahul Shah,Male,Electrical Eng,Semester 1,82.2,31,77.0,77.4,78.3,7.76,Medium,Master,Yes,Pass,Average Performer
+STU2024472,Rahul Deshmukh,Female,Mechanical Eng,Semester 5,79.4,14,50.1,70.1,64.5,6.19,Low,High School,Yes,Pass,Average Performer
+STU2024473,Akash Shah,Female,Computer Science,Semester 6,81.4,15,65.5,68.9,71.9,6.91,Medium,Bachelor,Yes,Pass,Average Performer
+STU2024474,Arjun Saxena,Female,Information Tech,Semester 6,84.2,11,56.6,71.8,68.7,6.6,High,Master,Yes,Pass,Average Performer
+STU2024475,Akash Gupta,Male,Mechanical Eng,Semester 1,68.3,22,66.7,79.0,74.8,7.36,Medium,Bachelor,Yes,Pass,Average Performer
+STU2024476,Isha Patel,Male,Electrical Eng,Semester 8,69.5,19,57.9,56.5,59.1,5.8,High,Bachelor,Yes,Pass,Average Performer
+STU2024477,Vikram Reddy,Male,Information Tech,Semester 7,54.8,12,61.0,66.5,69.9,6.62,Low,Bachelor,Yes,At-Risk,Needs Improvement
+STU2024478,Pooja Bhat,Male,Information Tech,Semester 7,91.4,13,61.9,73.7,84.6,7.45,Medium,High School,Yes,Pass,Average Performer
+STU2024479,Priya Bhat,Female,Information Tech,Semester 7,82.2,30,80.4,88.2,87.0,8.54,Medium,High School,Yes,Academic Distinction,High Performer
+STU2024480,Shruti Verma,Male,Electronics & Comm,Semester 8,92.5,20,79.0,86.0,85.3,8.36,High,Bachelor,Yes,Pass,Average Performer
+STU2024481,Karan Joshi,Male,Information Tech,Semester 5,70.6,20,56.2,75.7,69.0,6.72,Medium,Bachelor,Yes,Pass,Average Performer
+STU2024482,Kavya Shah,Female,Electrical Eng,Semester 6,82.2,20,60.3,77.5,65.2,6.74,Low,High School,Yes,Pass,Average Performer
+STU2024483,Meera Malhotra,Female,Mechanical Eng,Semester 1,84.1,29,86.5,87.0,87.1,8.69,Low,Master,Yes,Academic Distinction,High Performer
+STU2024484,Isha Mehta,Female,Information Tech,Semester 8,76.4,12,56.4,69.5,61.3,6.23,High,Doctorate,Yes,Pass,Average Performer
+STU2024485,Aditya Kumar,Male,Electrical Eng,Semester 6,66.5,17,54.8,63.1,62.6,6.04,High,Master,Yes,Pass,Average Performer
+STU2024486,Neha Verma,Male,Computer Science,Semester 4,99.5,18,81.2,73.6,78.6,7.79,Low,Master,Yes,Pass,Average Performer
+STU2024487,Nikhil Reddy,Male,Information Tech,Semester 3,96.0,7,55.3,66.3,65.6,6.27,Low,Bachelor,Yes,Pass,Average Performer
+STU2024488,Sneha Singh,Male,Computer Science,Semester 3,78.2,13,59.7,68.9,57.3,6.15,High,Doctorate,Yes,Pass,Average Performer
+STU2024489,Akash Sharma,Male,Computer Science,Semester 8,87.1,27,75.1,80.4,73.5,7.6,Medium,High School,Yes,Pass,Average Performer
+STU2024490,Varun Kumar,Male,Electrical Eng,Semester 6,77.2,25,78.3,73.9,78.3,7.7,Medium,Doctorate,Yes,Pass,Average Performer
+STU2024491,Sneha Agarwal,Male,Civil Eng,Semester 2,72.0,26,85.7,87.6,79.3,8.37,Low,Doctorate,Yes,Pass,Average Performer
+STU2024492,Priya Chopra,Male,Computer Science,Semester 5,99.5,15,57.9,86.9,81.7,7.61,High,Master,Yes,Pass,Average Performer
+STU2024493,Kriti Mehta,Male,Electronics & Comm,Semester 7,65.4,16,61.3,64.0,58.3,6.09,High,Doctorate,No,Pass,Average Performer
+STU2024494,Manish Patel,Female,Mechanical Eng,Semester 5,79.1,7,61.9,69.2,70.2,6.74,Medium,Bachelor,No,Pass,Average Performer
+STU2024495,Amit Joshi,Female,Computer Science,Semester 5,82.8,26,75.9,79.7,74.8,7.66,High,Bachelor,Yes,Pass,Average Performer
+STU2024496,Aditya Gupta,Female,Information Tech,Semester 8,98.5,27,77.8,91.5,88.7,8.63,Medium,Bachelor,No,Academic Distinction,High Performer
+STU2024497,Divya Kumar,Male,Electrical Eng,Semester 4,91.0,27,87.2,89.7,81.2,8.56,Medium,Bachelor,No,Academic Distinction,High Performer
+STU2024498,Ananya Saxena,Male,Information Tech,Semester 5,65.3,31,86.3,74.9,75.8,7.87,Medium,High School,Yes,Pass,Average Performer
+STU2024499,Simran Chopra,Male,Computer Science,Semester 3,82.0,22,81.3,74.5,74.8,7.67,Medium,Bachelor,Yes,Pass,Average Performer
+STU2024500,Priya Bhat,Female,Electronics & Comm,Semester 4,82.2,30,86.8,92.4,92.3,9.07,Medium,Doctorate,Yes,Academic Distinction,High Performer
+STU2024501,Sneha Shah,Female,Electrical Eng,Semester 1,79.7,18,69.3,77.9,76.7,7.48,High,High School,Yes,Pass,Average Performer
+STU2024502,Kriti Kumar,Male,Information Tech,Semester 5,88.2,7,51.5,56.2,54.3,5.4,Medium,Master,Yes,At-Risk,Needs Improvement
+STU2024503,Amit Verma,Female,Computer Science,Semester 5,67.9,26,80.3,70.7,73.4,7.47,Low,Doctorate,Yes,Pass,Average Performer
+STU2024504,Karan Chopra,Male,Electrical Eng,Semester 1,77.9,7,61.0,59.9,60.1,6.03,Medium,Doctorate,No,Pass,Average Performer
+STU2024505,Kavya Malhotra,Female,Computer Science,Semester 5,86.8,21,65.8,76.5,78.5,7.41,High,Doctorate,Yes,Pass,Average Performer
+STU2024506,Arjun Deshmukh,Female,Electrical Eng,Semester 1,88.8,26,84.6,90.4,93.8,9.0,High,Bachelor,Yes,Academic Distinction,High Performer
+STU2024507,Aditya Kumar,Female,Computer Science,Semester 4,83.5,22,80.0,79.5,73.3,7.72,High,Doctorate,Yes,Pass,Average Performer
+STU2024508,Anushka Gupta,Female,Civil Eng,Semester 3,79.1,35,95.7,79.2,90.7,8.88,Medium,Master,Yes,Pass,Average Performer
+STU2024509,Amit Saxena,Female,Electronics & Comm,Semester 1,80.8,6,53.9,62.9,58.3,5.84,Medium,High School,No,Pass,Average Performer
+STU2024510,Aarav Saxena,Male,Electronics & Comm,Semester 2,89.4,19,66.7,83.2,75.8,7.53,Medium,Bachelor,Yes,Pass,Average Performer
+STU2024511,Dev Deshmukh,Female,Computer Science,Semester 8,82.3,20,67.9,75.8,73.7,7.26,High,Master,Yes,Pass,Average Performer
+STU2024512,Karan Sharma,Male,Electronics & Comm,Semester 8,71.6,10,47.6,59.9,65.8,5.86,High,Bachelor,Yes,Pass,Average Performer
+STU2024513,Anushka Mishra,Female,Mechanical Eng,Semester 1,69.7,11,55.7,65.6,56.9,5.91,Medium,Bachelor,Yes,Pass,Average Performer
+STU2024514,Sneha Singh,Female,Civil Eng,Semester 8,67.1,14,56.7,74.5,69.2,6.7,Medium,Master,Yes,Pass,Average Performer
+STU2024515,Kriti Chopra,Female,Electronics & Comm,Semester 5,96.6,12,85.2,80.7,80.0,8.18,High,High School,Yes,Pass,Average Performer
+STU2024516,Priya Reddy,Male,Electronics & Comm,Semester 7,90.1,19,81.0,88.1,79.1,8.24,Medium,Bachelor,Yes,Pass,Average Performer
+STU2024517,Siddharth Patel,Female,Electrical Eng,Semester 7,80.9,15,73.1,69.0,73.4,7.2,High,Master,Yes,Pass,Average Performer
+STU2024518,Aarav Kumar,Female,Mechanical Eng,Semester 8,77.5,22,76.2,76.3,76.6,7.64,Low,Bachelor,Yes,Pass,Average Performer
+STU2024519,Pooja Nair,Female,Information Tech,Semester 4,76.3,24,71.4,77.2,60.2,6.87,Low,High School,Yes,Pass,Average Performer
+STU2024520,Aditya Nair,Male,Electronics & Comm,Semester 6,92.9,24,78.8,86.4,90.1,8.56,High,High School,Yes,Academic Distinction,High Performer
+STU2024521,Meera Verma,Male,Electronics & Comm,Semester 4,99.5,17,73.7,86.0,72.5,7.69,High,Bachelor,Yes,Pass,Average Performer
+STU2024522,Arjun Joshi,Male,Electrical Eng,Semester 6,75.9,21,72.1,69.2,71.1,7.08,Medium,Doctorate,Yes,Pass,Average Performer
+STU2024523,Ananya Saxena,Male,Computer Science,Semester 7,93.4,27,87.9,92.2,97.1,9.29,High,Bachelor,Yes,Academic Distinction,High Performer
+STU2024524,Aarav Singh,Female,Information Tech,Semester 7,82.3,23,75.5,69.8,85.9,7.8,Medium,Bachelor,Yes,Pass,Average Performer
+STU2024525,Vikram Shah,Male,Electronics & Comm,Semester 1,79.9,33,84.2,78.3,79.5,8.06,Low,Bachelor,Yes,Pass,Average Performer
+STU2024526,Vikram Chopra,Female,Electrical Eng,Semester 3,97.0,26,80.2,100.0,83.3,8.74,Medium,Bachelor,Yes,Academic Distinction,High Performer
+STU2024527,Karan Kumar,Male,Computer Science,Semester 2,81.9,32,75.0,83.5,85.8,8.19,Low,Master,Yes,Pass,Average Performer
+STU2024528,Manish Patel,Male,Information Tech,Semester 4,85.0,6,66.5,71.7,76.3,7.2,Medium,Master,Yes,Pass,Average Performer
+STU2024529,Kriti Shah,Female,Information Tech,Semester 5,84.5,20,90.4,88.4,86.1,8.81,High,High School,Yes,Academic Distinction,High Performer
+STU2024530,Aditya Deshmukh,Female,Information Tech,Semester 6,65.7,17,71.3,52.6,60.6,6.14,Medium,Bachelor,Yes,Pass,Average Performer
+STU2024531,Pooja Mishra,Male,Computer Science,Semester 8,84.9,19,61.7,84.4,70.7,7.21,Medium,High School,Yes,Pass,Average Performer
+STU2024532,Varun Chopra,Female,Information Tech,Semester 5,76.4,14,68.7,73.3,70.1,7.06,Medium,Bachelor,Yes,Pass,Average Performer
+STU2024533,Vikram Verma,Female,Information Tech,Semester 3,67.8,22,76.7,81.3,78.1,7.86,High,Master,No,Pass,Average Performer
+STU2024534,Meera Patel,Male,Information Tech,Semester 6,76.8,7,50.9,56.9,55.3,5.45,High,High School,Yes,At-Risk,Needs Improvement
+STU2024535,Rohan Sharma,Female,Information Tech,Semester 4,76.7,22,76.0,84.7,77.0,7.9,Low,Bachelor,Yes,Pass,Average Performer
+STU2024536,Kavya Joshi,Female,Electrical Eng,Semester 1,92.3,14,65.1,72.9,76.5,7.2,High,Bachelor,Yes,Pass,Average Performer
+STU2024537,Siddharth Mehta,Female,Mechanical Eng,Semester 5,71.4,16,75.0,74.8,66.8,7.17,Low,Doctorate,Yes,Pass,Average Performer
+STU2024538,Aditya Mishra,Male,Electronics & Comm,Semester 3,74.1,23,75.2,75.2,73.1,7.44,Low,Doctorate,Yes,Pass,Average Performer
+STU2024539,Simran Patel,Female,Mechanical Eng,Semester 4,84.4,20,65.4,82.8,66.9,7.12,Medium,High School,Yes,Pass,Average Performer
+STU2024540,Varun Singh,Male,Information Tech,Semester 7,68.7,27,80.2,76.2,77.0,7.77,Medium,Master,No,Pass,Average Performer
+STU2024541,Aditya Malhotra,Male,Computer Science,Semester 7,75.4,13,69.2,57.1,56.5,6.05,Medium,Bachelor,No,Pass,Average Performer
+STU2024542,Nikhil Mishra,Male,Computer Science,Semester 4,65.4,19,65.5,49.2,64.2,6.01,Low,Bachelor,Yes,Pass,Average Performer
+STU2024543,Anushka Gupta,Male,Electronics & Comm,Semester 4,91.2,26,86.5,87.7,81.3,8.48,High,Master,Yes,Pass,Average Performer
+STU2024544,Akash Reddy,Female,Electrical Eng,Semester 4,79.0,22,72.4,75.5,65.9,7.07,Medium,Doctorate,Yes,Pass,Average Performer
+STU2024545,Isha Kulkarni,Female,Electrical Eng,Semester 6,81.8,22,65.0,80.9,72.1,7.26,Medium,Doctorate,No,Pass,Average Performer
+STU2024546,Kavya Joshi,Female,Electrical Eng,Semester 4,91.2,27,82.7,85.7,94.0,8.81,Medium,Bachelor,No,Academic Distinction,High Performer
+STU2024547,Rahul Joshi,Male,Information Tech,Semester 5,74.8,17,69.5,83.1,78.9,7.73,Medium,Bachelor,Yes,Pass,Average Performer
+STU2024548,Tanvi Malhotra,Male,Electronics & Comm,Semester 3,78.9,15,63.5,72.8,60.2,6.5,Medium,Master,Yes,Pass,Average Performer
+STU2024549,Yash Kumar,Male,Computer Science,Semester 6,71.4,24,78.8,72.2,68.3,7.26,Medium,Bachelor,Yes,Pass,Average Performer
+STU2024550,Aarav Bhat,Female,Electronics & Comm,Semester 4,71.4,18,62.0,72.1,65.4,6.64,Low,Bachelor,Yes,Pass,Average Performer
+STU2024551,Aarav Shah,Male,Electronics & Comm,Semester 2,72.8,27,73.9,75.4,85.4,7.9,High,Bachelor,Yes,Pass,Average Performer
+STU2024552,Aarav Bhat,Female,Computer Science,Semester 8,77.1,22,78.9,76.7,73.1,7.59,Low,Master,Yes,Pass,Average Performer
+STU2024553,Manish Verma,Female,Computer Science,Semester 2,78.2,15,66.1,63.8,63.1,6.42,Medium,Bachelor,Yes,Pass,Average Performer
+STU2024554,Tanvi Joshi,Male,Information Tech,Semester 3,84.9,22,72.1,80.0,85.1,7.97,Low,High School,Yes,Pass,Average Performer
+STU2024555,Kavya Malhotra,Female,Electrical Eng,Semester 7,73.1,13,68.1,64.1,68.7,6.71,Medium,Doctorate,Yes,Pass,Average Performer
+STU2024556,Rahul Malhotra,Male,Civil Eng,Semester 1,85.2,26,74.8,76.7,82.8,7.86,Medium,High School,No,Pass,Average Performer
+STU2024557,Sneha Kumar,Female,Civil Eng,Semester 1,86.9,10,55.9,83.3,68.1,6.9,High,Bachelor,Yes,Pass,Average Performer
+STU2024558,Rohan Rao,Female,Information Tech,Semester 8,77.3,28,56.9,74.5,66.6,6.61,Low,Bachelor,Yes,Pass,Average Performer
+STU2024559,Amit Joshi,Male,Electronics & Comm,Semester 7,74.0,22,66.6,74.6,77.5,7.34,High,High School,Yes,Pass,Average Performer
+STU2024560,Isha Saxena,Male,Information Tech,Semester 6,82.9,18,80.2,71.0,76.8,7.61,Low,High School,Yes,Pass,Average Performer
+STU2024561,Karan Bhat,Female,Electrical Eng,Semester 6,80.0,25,60.4,81.8,77.4,7.36,Low,High School,Yes,Pass,Average Performer
+STU2024562,Yash Sharma,Female,Computer Science,Semester 6,84.2,23,68.7,72.9,75.2,7.26,High,Master,Yes,Pass,Average Performer
+STU2024563,Neha Rao,Male,Electronics & Comm,Semester 1,97.7,29,92.4,97.1,89.9,9.28,High,Bachelor,Yes,Academic Distinction,High Performer
+STU2024564,Nikhil Gupta,Female,Mechanical Eng,Semester 2,82.7,29,64.9,96.8,79.5,8.03,Medium,Doctorate,Yes,Pass,Average Performer
+STU2024565,Yash Kumar,Female,Electronics & Comm,Semester 1,75.6,22,67.6,70.4,75.1,7.14,High,Bachelor,Yes,Pass,Average Performer
+STU2024566,Akash Sharma,Female,Information Tech,Semester 5,73.1,13,69.0,74.3,75.0,7.3,Low,Bachelor,Yes,Pass,Average Performer
+STU2024567,Yash Singh,Male,Information Tech,Semester 4,73.5,16,79.9,67.3,74.0,7.38,High,Bachelor,Yes,Pass,Average Performer
+STU2024568,Nikhil Sharma,Female,Computer Science,Semester 6,67.4,19,67.1,77.9,61.5,6.81,High,Bachelor,Yes,Pass,Average Performer
+STU2024569,Kriti Gupta,Female,Electronics & Comm,Semester 2,91.3,27,76.5,100.0,78.7,8.44,Low,Master,Yes,Pass,Average Performer
+STU2024570,Shruti Verma,Male,Electronics & Comm,Semester 3,59.7,16,50.4,61.2,48.1,5.27,Medium,Bachelor,Yes,At-Risk,Needs Improvement
+STU2024571,Isha Singh,Male,Computer Science,Semester 8,86.9,17,71.3,67.9,70.7,7.0,Low,Bachelor,Yes,Pass,Average Performer
+STU2024572,Nikhil Nair,Female,Computer Science,Semester 3,73.3,32,85.0,87.9,81.8,8.46,Medium,Master,Yes,Pass,Average Performer
+STU2024573,Aarav Kumar,Male,Mechanical Eng,Semester 4,76.9,19,83.4,75.0,71.8,7.62,Medium,Doctorate,Yes,Pass,Average Performer
+STU2024574,Arjun Bhat,Female,Electronics & Comm,Semester 2,73.0,15,70.0,71.5,76.2,7.29,Medium,Master,Yes,Pass,Average Performer
+STU2024575,Priya Reddy,Male,Information Tech,Semester 1,96.5,25,84.3,86.2,81.1,8.36,Medium,Bachelor,Yes,Pass,Average Performer
+STU2024576,Divya Saxena,Male,Electronics & Comm,Semester 1,82.2,19,68.0,71.0,65.0,6.77,Medium,Master,Yes,Pass,Average Performer
+STU2024577,Divya Bhat,Female,Civil Eng,Semester 5,89.9,10,87.1,79.9,85.6,8.43,Medium,Bachelor,Yes,Pass,Average Performer
+STU2024578,Yash Joshi,Male,Electronics & Comm,Semester 5,95.0,27,90.4,91.0,96.4,9.3,Medium,Bachelor,No,Academic Distinction,High Performer
+STU2024579,Aditya Bhat,Male,Electronics & Comm,Semester 1,83.6,14,59.9,64.3,76.5,6.79,High,Bachelor,Yes,Pass,Average Performer
+STU2024580,Priya Deshmukh,Male,Mechanical Eng,Semester 3,70.0,20,65.2,75.1,72.5,7.11,Medium,Bachelor,Yes,Pass,Average Performer
+STU2024581,Arjun Verma,Female,Mechanical Eng,Semester 8,79.8,19,62.7,78.0,79.4,7.4,High,High School,Yes,Pass,Average Performer
+STU2024582,Nikhil Malhotra,Male,Computer Science,Semester 6,74.6,21,50.8,72.1,57.0,5.97,Medium,Bachelor,Yes,Pass,Average Performer
+STU2024583,Amit Gupta,Male,Mechanical Eng,Semester 3,77.0,6,55.5,73.0,76.7,6.92,High,Master,Yes,Pass,Average Performer
+STU2024584,Priya Chopra,Female,Information Tech,Semester 8,81.1,17,82.1,70.4,68.5,7.32,Medium,Bachelor,Yes,Pass,Average Performer
+STU2024585,Nikhil Singh,Male,Information Tech,Semester 5,80.7,27,66.6,80.9,71.9,7.3,Medium,High School,No,Pass,Average Performer
+STU2024586,Neha Chopra,Female,Computer Science,Semester 4,86.1,28,83.5,90.1,89.1,8.77,High,High School,Yes,Academic Distinction,High Performer
+STU2024587,Kriti Nair,Male,Computer Science,Semester 8,87.6,13,60.0,74.7,62.6,6.54,High,Doctorate,Yes,Pass,Average Performer
+STU2024588,Kavya Kumar,Female,Electrical Eng,Semester 1,80.7,26,82.7,72.8,74.2,7.63,High,Bachelor,Yes,Pass,Average Performer
+STU2024589,Sneha Joshi,Male,Information Tech,Semester 5,86.0,14,64.8,75.3,67.3,6.9,Medium,Bachelor,Yes,Pass,Average Performer
+STU2024590,Manish Bhat,Female,Electronics & Comm,Semester 5,76.5,17,55.1,69.4,62.8,6.25,Low,Master,Yes,Pass,Average Performer
+STU2024591,Anushka Mishra,Male,Electrical Eng,Semester 6,95.1,17,65.6,86.3,85.9,7.99,High,Master,Yes,Pass,Average Performer
+STU2024592,Siddharth Deshmukh,Male,Electrical Eng,Semester 1,76.3,20,62.9,75.1,69.9,6.94,Medium,Bachelor,Yes,Pass,Average Performer
+STU2024593,Anushka Reddy,Male,Computer Science,Semester 6,94.0,27,95.8,89.2,90.8,9.18,Medium,Master,Yes,Academic Distinction,High Performer
+STU2024594,Kavya Kulkarni,Male,Information Tech,Semester 1,67.2,21,77.4,64.1,56.3,6.5,Medium,Master,No,Pass,Average Performer
+STU2024595,Akash Sharma,Male,Computer Science,Semester 6,78.2,19,66.6,72.9,73.5,7.12,Low,Master,No,Pass,Average Performer
+STU2024596,Karan Joshi,Male,Electrical Eng,Semester 8,78.7,26,87.5,86.0,89.2,8.77,Medium,High School,Yes,Pass,Average Performer
+STU2024597,Simran Chopra,Female,Electrical Eng,Semester 3,84.8,14,64.3,68.9,61.5,6.46,Medium,Master,Yes,Pass,Average Performer
+STU2024598,Meera Deshmukh,Male,Civil Eng,Semester 4,90.6,19,71.4,80.3,78.0,7.67,High,Bachelor,Yes,Pass,Average Performer
+STU2024599,Priya Agarwal,Male,Computer Science,Semester 4,69.5,26,74.5,69.9,72.9,7.25,High,Bachelor,No,Pass,Average Performer
+STU2024600,Priya Singh,Female,Computer Science,Semester 1,70.9,23,73.2,66.7,75.3,7.21,High,Bachelor,Yes,Pass,Average Performer
